@@ -1,0 +1,12 @@
+header
+{
+	background-color: #000;
+	height: 50px; 	
+	margin: auto;
+}
+
+header.h1
+{
+	margin: auto;
+	font: yellow;
+}

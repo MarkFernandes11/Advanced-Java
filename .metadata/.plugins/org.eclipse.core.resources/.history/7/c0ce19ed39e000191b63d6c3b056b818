@@ -1,0 +1,38 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+<%@page import="com.data.User"%>
+<%@page import="java.util.ListIterator"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th><td>Name</td></th>
+			<th><td>Email</td></th>
+			<th><td>Contact Number</td></th> 
+		</tr>
+		
+		<%List<User> userList = (ArrayList<User>)request.getAttribute("userlist");
+			for(User u : userList)
+			{
+				out.println(u.getName());
+				out.println(u.getEmail());
+				out.println(u.getContactNumber());
+			%>
+				<td>u.getName()</td>
+				<td>u.getEmail()</td>
+				<td>u.getContactNumber()</td>
+				<br>
+		<%		
+			}
+		%>
+		<br>
+	</table>
+</body>
+</html>

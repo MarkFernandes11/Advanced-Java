@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+</head>
+<body>
+	<header>
+			<h1>Bridgelabz Login Page</h1>
+	</header>
+	<form action="LoginServlet" method = "post">
+		<br>
+		<input type = "text" placeholder = "Enter username" required>
+		<br><br>
+		<input type = "password" placeholder = "Enter password" required>
+		<br><br>
+		<input type = "submit" value = "Login">  <input type="reset" value = "clear">
+		<br><br>
+		<a href="register.jsp"><input type="submit" value = "register"></a>
+		<br><br>
+	</form>
+</body>
+</html>

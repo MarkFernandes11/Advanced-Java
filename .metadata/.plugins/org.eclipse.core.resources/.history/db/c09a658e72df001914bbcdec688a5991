@@ -1,0 +1,82 @@
+package com.login;
+
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+public class UserRegistration 
+{
+	static User user = new User();
+	static Connection connection = null;
+	static PreparedStatement statement = null;
+	static String query = "INSERT INTO UserTable (Firstname,Lastname,Email,Contact_Number,Password) VALUES(?, ?, ?, ?, ?)";
+	
+	public static int RegisterUser(String firstname, String lastname, String email, String contactNumber, String password) 
+	{	
+		int status = 0;
+		try 
+		{
+			connection = ConnectionProvider.getConection();
+			statement = (PreparedStatement) connection.prepareStatement(query);
+			statement.setString(1, firstname);
+			System.out.println(statement);
+			statement.setString(2, lastname);
+			System.out.println(statement);
+			statement.setString(3, email);
+			System.out.println(statement);
+			statement.setString(4, contactNumber);
+			System.out.println(statement);
+			statement.setString(5, password);
+			System.out.println(statement);
+			
+			status = statement.executeUpdate();
+			
+		} 
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		finally 
+		{
+			if(statement != null)
+			{
+				try 
+				{
+					statement.close();					
+				}
+				catch (SQLException e) {
+					
+					e.printStackTrace();
+				}
+				statement = null;
+			}
+			if(connection != null)
+			{
+				try 
+				{
+					connection.close();					
+				}
+				catch (SQLException e) {
+					
+					e.printStackTrace();
+				}
+				connection = null;
+			}
+		}
+		
+		return status;
+		
+	}
+
+//	public void RegisterUser(String firstname, String lastname, String email, String contactNumber, String password) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+}
+
+//statement.setString(1, user.getFirstname());			
+//statement.setString(2, user.getLastname());
+//statement.setString(3, user.getEmail());
+//statement.setString(4, user.getContactNumber());
+//statement.setString(5, user.getPassword());

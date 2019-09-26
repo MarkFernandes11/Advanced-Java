@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+	background-color: #73d216;
+}
+
+body{	
+	background-color: #fff;
+}
+
+form{
+	background-color: #fff;
+	border: 2px solid #f00;
+	width: 100px;
+	height: 100px;
+}

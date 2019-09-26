@@ -1,0 +1,8 @@
+package com.bridgelabz.login;
+
+public interface DatabaseDAO 
+{
+	void insertIntoDatabase();
+	
+	void getFromDatabase();
+}

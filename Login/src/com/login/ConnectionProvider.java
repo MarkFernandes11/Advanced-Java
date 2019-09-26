@@ -1,0 +1,32 @@
+package com.login;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+
+public class ConnectionProvider implements ConnectionProviderDetails 
+{
+	static Connection connection = null;
+	
+	public static Connection getConection() 
+	{
+		try 
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/LoginDB", "root", "password");
+		}
+		catch (ClassNotFoundException e) 
+		{			
+			System.out.println("Class not found "+e.getMessage());
+		}
+		catch (SQLException e) 
+		{
+			System.out.println("Error occured while establishing connection "+e.getMessage());
+		}
+		
+		System.out.println("check");
+		
+		return connection;
+	}
+}

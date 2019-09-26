@@ -1,0 +1,873 @@
+
+Sep 21, 2019 18:47:04.65 NEW SESSION
+Sep 21, 2019 18:47:04.65 [19840:19840:0921/184704.649801:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 21, 2019 18:47:04.69 [19803:19824:0921/184704.697319:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 21, 2019 18:47:04.82 Opening in existing browser session.
+Sep 21, 2019 18:55:35.49 [20158:20179:0921/185535.494313:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 21, 2019 18:55:35.58 Opening in existing browser session.
+
+Sep 23, 2019 11:55:05.76 NEW SESSION
+Sep 23, 2019 11:55:05.76 [4812:4812:0923/115505.757212:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 11:55:05.80 [4774:4795:0923/115505.780660:ERROR:browser_process_sub_thread.cc(203)] Waited 11 ms for network service
+Sep 23, 2019 11:55:06.01 Opening in existing browser session.
+Sep 23, 2019 12:01:28.70 [5297:5297:0923/120128.704948:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:01:28.73 [5259:5279:0923/120128.733789:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+Sep 23, 2019 12:01:28.83 Opening in existing browser session.
+Sep 23, 2019 12:06:22.12 [5649:5649:0923/120622.121481:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:06:22.13 [5611:5632:0923/120622.135895:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 23, 2019 12:06:22.25 Opening in existing browser session.
+Sep 23, 2019 12:13:10.79 [5972:5972:0923/121310.791010:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:13:10.88 Opening in existing browser session.
+Sep 23, 2019 12:15:29.81 [6250:6250:0923/121529.814696:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:15:29.83 [6210:6231:0923/121529.835737:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 23, 2019 12:15:29.93 Opening in existing browser session.
+Sep 23, 2019 12:16:25.82 [6407:6427:0923/121625.820520:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 23, 2019 12:16:26.03 Opening in existing browser session.
+Sep 23, 2019 12:19:33.84 [6750:6750:0923/121933.847205:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:19:33.86 [6710:6730:0923/121933.862834:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 23, 2019 12:19:33.98 Opening in existing browser session.
+Sep 23, 2019 12:30:57.46 [7361:7361:0923/123057.469794:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:30:57.49 [7324:7344:0923/123057.499246:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 23, 2019 12:30:57.57 Opening in existing browser session.
+Sep 23, 2019 12:33:25.43 [7616:7616:0923/123325.430085:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:33:25.45 [7578:7598:0923/123325.452391:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 23, 2019 12:33:25.54 Opening in existing browser session.
+Sep 23, 2019 12:36:42.88 [7817:7817:0923/123642.886294:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 12:36:42.91 [7779:7800:0923/123642.914257:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 23, 2019 12:36:42.98 Opening in existing browser session.
+Sep 23, 2019 13:47:13.06 [9011:9032:0923/134713.066463:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 23, 2019 13:47:13.15 Opening in existing browser session.
+Sep 23, 2019 13:48:26.47 [9192:9192:0923/134826.471862:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 13:48:26.48 [9154:9175:0923/134826.486303:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 23, 2019 13:48:26.55 Opening in existing browser session.
+Sep 23, 2019 13:49:28.42 [9338:9338:0923/134928.420822:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 13:49:28.42 [9300:9321:0923/134928.424194:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 23, 2019 13:49:28.51 Opening in existing browser session.
+Sep 23, 2019 13:49:56.31 [9467:9467:0923/134956.314770:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 13:49:56.33 [9429:9449:0923/134956.336449:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 23, 2019 13:49:56.49 Opening in existing browser session.
+Sep 23, 2019 14:08:08.78 [9825:9825:0923/140808.788978:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 14:08:08.80 [9787:9808:0923/140808.809288:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 23, 2019 14:08:08.90 Opening in existing browser session.
+Sep 23, 2019 14:09:29.07 [10083:10083:0923/140929.071657:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 14:09:29.08 [10043:10064:0923/140929.084408:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 23, 2019 14:09:29.16 Opening in existing browser session.
+Sep 23, 2019 14:10:44.31 [10335:10335:0923/141044.317373:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 14:10:44.33 [10297:10318:0923/141044.333193:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 23, 2019 14:10:44.43 Opening in existing browser session.
+Sep 23, 2019 14:11:45.68 [10480:10480:0923/141145.682841:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 14:11:45.69 [10442:10463:0923/141145.696105:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 23, 2019 14:11:45.76 Opening in existing browser session.
+Sep 23, 2019 16:46:07.47 [14679:14700:0923/164607.471547:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 23, 2019 16:46:07.62 Opening in existing browser session.
+Sep 23, 2019 16:47:44.06 [14827:14848:0923/164744.063235:ERROR:browser_process_sub_thread.cc(203)] Waited 18 ms for network service
+Sep 23, 2019 16:47:44.17 Opening in existing browser session.
+Sep 23, 2019 16:52:47.26 [15272:15293:0923/165247.258537:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 23, 2019 16:52:47.42 Opening in existing browser session.
+Sep 23, 2019 16:55:54.03 [15556:15577:0923/165554.038664:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 23, 2019 16:55:54.04 [15594:15594:0923/165554.039701:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 16:55:54.10 Opening in existing browser session.
+Sep 23, 2019 18:26:42.39 [17309:17309:0923/182642.392509:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 18:26:42.43 [17271:17292:0923/182642.428399:ERROR:browser_process_sub_thread.cc(203)] Waited 17 ms for network service
+Sep 23, 2019 18:26:42.48 Opening in existing browser session.
+Sep 23, 2019 18:43:07.29 [18525:18525:0923/184307.298134:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 18:43:07.31 [18484:18505:0923/184307.316407:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 23, 2019 18:43:07.41 Opening in existing browser session.
+Sep 23, 2019 19:35:20.71 [19260:19260:0923/193520.718566:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 23, 2019 19:35:20.74 [19222:19243:0923/193520.740129:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 23, 2019 19:35:20.80 Opening in existing browser session.
+
+Sep 24, 2019 10:08:45.88 NEW SESSION
+Sep 24, 2019 10:08:45.88 [3114:3114:0924/100845.885301:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 10:08:57.02 [3061:3097:0924/100857.025311:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:08:57.54 [3114:3114:0924/100857.543538:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 10:08:57.58 [3114:3114:0924/100857.585176:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 10:09:24.84 [3061:3097:0924/100924.843617:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:09:34.80 [3061:3097:0924/100934.806746:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:09:48.04 Gtk-Message: 10:09:48.042: GtkDialog mapped without a transient parent. This is discouraged.
+Sep 24, 2019 10:09:53.52 [3114:3114:0924/100953.523704:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 10:10:17.36 [3061:3097:0924/101017.361509:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:10:19.54 [3061:3097:0924/101019.543262:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:11:02.35 [3061:3097:0924/101102.353448:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:11:04.50 [3061:3097:0924/101104.506696:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:11:47.33 [3061:3097:0924/101147.336931:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:16:49.36 [3061:3097:0924/101649.367259:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:17:32.35 [3061:3097:0924/101732.358857:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:17:34.90 [3061:3097:0924/101734.904306:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:18:17.33 [3061:3097:0924/101817.336086:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:18:19.54 [3061:3097:0924/101819.544712:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:19:02.38 [3061:3097:0924/101902.382176:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:19:04.75 [3061:3097:0924/101904.756951:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:19:47.33 [3061:3097:0924/101947.330318:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:23:19.92 [3061:3061:0924/102319.907859:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:23:41.35 [3061:3061:0924/102341.357061:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:24:27.46 [3061:3061:0924/102427.463420:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:24:50.26 [3061:3097:0924/102450.265536:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:25:32.35 [3061:3097:0924/102532.356826:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:25:34.55 [3061:3097:0924/102534.552841:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:25:55.44 [3061:3061:0924/102555.447912:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:26:17.33 [3061:3097:0924/102617.335991:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:26:19.45 [3061:3097:0924/102619.449828:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:27:02.35 [3061:3097:0924/102702.359175:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:27:04.40 [3061:3097:0924/102704.405908:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:27:47.35 [3061:3097:0924/102747.350537:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:28:37.81 [3061:3061:0924/102837.817145:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:32:50.07 [3061:3097:0924/103250.074594:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:33:32.33 [3061:3097:0924/103332.337048:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:33:34.45 [3061:3097:0924/103334.454930:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:34:07.20 [3061:3061:0924/103407.201533:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+Sep 24, 2019 10:34:17.36 [3061:3097:0924/103417.360267:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:34:19.54 [3061:3097:0924/103419.544552:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:35:02.35 [3061:3097:0924/103502.350765:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:35:04.60 [3061:3097:0924/103504.599878:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 10:35:47.35 [3061:3097:0924/103547.353973:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Sep 24, 2019 10:41:27.19 [3061:3097:0924/104127.192367:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Sep 24, 2019 11:11:09.73 [3114:3114:0924/111109.737471:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 12:14:08.17 [9000:9000:0924/121408.175657:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 12:14:08.29 Opening in existing browser session.
+Sep 24, 2019 12:22:55.14 [3061:3061:0924/122255.144548:ERROR:CONSOLE(86)] "[object Object]", source:  (86)
+Sep 24, 2019 12:22:59.33 
+Sep 24, 2019 12:22:59.33 
+Sep 24, 2019 12:22:59.33 #
+Sep 24, 2019 12:22:59.33 # Fatal error in , line 0
+Sep 24, 2019 12:22:59.33 # ignored
+Sep 24, 2019 12:22:59.33 #
+Sep 24, 2019 12:22:59.33 #
+Sep 24, 2019 12:22:59.33 #
+Sep 24, 2019 12:22:59.33 #FailureMessage Object: 0x7ffc5e3f2b70#0 0x5612851675f9 <unknown>
+Sep 24, 2019 12:22:59.47 --2019-09-24 12:22:59--  https://clients2.google.com/cr/report
+Sep 24, 2019 12:22:59.49 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 24, 2019 12:22:59.49 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 24, 2019 12:23:01.68 HTTP request sent, awaiting response... 200 OK
+Sep 24, 2019 12:23:01.68 Length: unspecified [text/plain]
+Sep 24, 2019 12:23:01.68 Saving to: ‘/dev/fd/4’
+Sep 24, 2019 12:23:01.68 
+Sep 24, 2019 12:23:01.68 Crash dump id: 08e30fa61d632d7b
+Sep 24, 2019 12:23:01.68 
+Sep 24, 2019 12:23:01.68      0K                                                         587K=0s
+Sep 24, 2019 12:23:01.68 
+Sep 24, 2019 12:23:01.68 2019-09-24 12:23:01 (587 KB/s) - ‘/dev/fd/4’ saved [16]
+Sep 24, 2019 12:23:01.68 
+Sep 24, 2019 12:23:05.58 --2019-09-24 12:23:05--  https://clients2.google.com/cr/report
+Sep 24, 2019 12:23:05.58 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 24, 2019 12:23:05.59 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 24, 2019 12:23:07.95 HTTP request sent, awaiting response... 200 OK
+Sep 24, 2019 12:23:07.95 Length: unspecified [text/plain]
+Sep 24, 2019 12:23:07.95 Saving to: ‘/dev/fd/4’
+Sep 24, 2019 12:23:07.95 
+Sep 24, 2019 12:23:07.95 Crash dump id: 9fba8146d6b8045e
+Sep 24, 2019 12:23:07.97 --2019-09-24 12:23:07--  https://clients2.google.com/cr/report
+Sep 24, 2019 12:23:07.97 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 24, 2019 12:23:07.98 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 24, 2019 12:23:08.28 HTTP request sent, awaiting response... [3114:3114:0924/122308.285727:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 12:23:10.42 200 OK
+Sep 24, 2019 12:23:10.42 Length: unspecified [text/plain]
+Sep 24, 2019 12:23:10.42 Saving to: ‘/dev/fd/4’
+Sep 24, 2019 12:23:10.42 
+Sep 24, 2019 12:23:10.42      0K                                                         593K=0s
+Sep 24, 2019 12:23:10.42 
+Sep 24, 2019 12:23:10.42 2019-09-24 12:23:10 (593 KB/s) - ‘/dev/fd/4’ saved [16]
+Sep 24, 2019 12:23:10.42 
+Sep 24, 2019 12:23:10.42 
+Sep 24, 2019 12:23:10.42 Crash dump id: d37f17d011364679
+Sep 24, 2019 12:23:11.88 [3114:3114:0924/122311.879921:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 12:23:43.58 --2019-09-24 12:23:43--  https://clients2.google.com/cr/report
+Sep 24, 2019 12:23:43.60 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 24, 2019 12:23:43.62 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 24, 2019 12:23:46.01 HTTP request sent, awaiting response... 200 OK
+Sep 24, 2019 12:23:46.02 Length: unspecified [text/plain]
+Sep 24, 2019 12:23:46.02 Saving to: ‘/dev/fd/4’
+Sep 24, 2019 12:23:46.02 
+Sep 24, 2019 12:23:46.02 Crash dump id: 5fb093c3ad3596ce
+Sep 24, 2019 12:23:53.16 --2019-09-24 12:23:53--  https://clients2.google.com/cr/report
+Sep 24, 2019 12:23:53.16 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 24, 2019 12:23:53.17 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 24, 2019 12:23:54.13 HTTP request sent, awaiting response... 200 OK
+Sep 24, 2019 12:23:54.13 Length: unspecified [text/plain]
+Sep 24, 2019 12:23:54.13 Saving to: ‘/dev/fd/4’
+Sep 24, 2019 12:23:54.13 
+Sep 24, 2019 12:23:54.13 
+Sep 24, 2019 12:23:54.13      0KCrash dump id:  afd6d9b713091fd3 
+Sep 24, 2019 13:13:57.03 [11209:11209:0924/131357.037282:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 13:14:17.05 [11172:11280:0924/131417.052398:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: PRAGMA auto_vacuum
+Sep 24, 2019 13:14:17.05 [11172:11280:0924/131417.052484:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: PRAGMA journal_mode=TRUNCATE
+Sep 24, 2019 13:14:17.05 [11172:11281:0924/131417.052714:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: PRAGMA auto_vacuum
+Sep 24, 2019 13:14:17.05 [11172:11281:0924/131417.052746:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: PRAGMA journal_mode=TRUNCATE
+Sep 24, 2019 13:14:17.11 [11172:11282:0924/131417.113198:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: PRAGMA auto_vacuum
+Sep 24, 2019 13:14:17.11 [11172:11282:0924/131417.113426:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: PRAGMA journal_mode=TRUNCATE
+Sep 24, 2019 13:14:17.24 [11209:11209:0924/131417.246359:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.054849:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: PRAGMA cache_size=32
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055003:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055142:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055200:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: SELECT COUNT(*) FROM sqlite_master
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055282:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055357:ERROR:database.cc(1598)] Web sqlite error 5, errno 0: database is locked, sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+Sep 24, 2019 13:14:18.05 [11172:11280:0924/131418.055393:ERROR:web_database_backend.cc(113)] Cannot initialize the web database: 1
+Sep 24, 2019 13:14:18.05 [11172:11281:0924/131418.058397:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: PRAGMA cache_size=1000
+Sep 24, 2019 13:14:18.05 [11172:11281:0924/131418.058576:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.06 [11172:11281:0924/131418.061894:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.06 [11172:11281:0924/131418.061967:ERROR:database.cc(1598)] History sqlite error 5, errno 0: database is locked, sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+Sep 24, 2019 13:14:18.06 [11172:11201:0924/131418.064184:ERROR:model_type_store_service_impl.cc(35)] Failed to initialize ModelTypeStore backend: Init@../../components/sync/model_impl/model_type_store_backend.cc:99: IO error: /home/admin1/.config/google-chrome/Profile 1/Sync Data/LevelDB/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.073140:ERROR:data_store_impl.cc(131)] Failed to open Data Reduction Proxy DB: 3
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075398:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: PRAGMA auto_vacuum
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075484:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: PRAGMA journal_mode=TRUNCATE
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075573:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075659:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075706:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: CREATE TABLE omni_box_shortcuts (id VARCHAR PRIMARY KEY, text VARCHAR, fill_into_edit VARCHAR, url VARCHAR, contents VARCHAR, contents_class VARCHAR, description VARCHAR, description_class VARCHAR, transition INTEGER, type INTEGER, keyword VARCHAR, last_access_time INTEGER, number_of_hits INTEGER)
+Sep 24, 2019 13:14:18.08 [11172:11192:0924/131418.075783:ERROR:database.cc(1598)] Shortcuts sqlite error 5, errno 0: database is locked, sql: SELECT id, text, fill_into_edit, url, contents, contents_class, description, description_class, transition, type, keyword, last_access_time, number_of_hits FROM omni_box_shortcuts
+Sep 24, 2019 13:14:18.10 [11172:11202:0924/131418.100418:ERROR:gcm_store_impl.cc(303)] Failed to open database /home/admin1/.config/google-chrome/Profile 1/GCM Store: IO error: /home/admin1/.config/google-chrome/Profile 1/GCM Store/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+Sep 24, 2019 13:14:18.10 [11209:11209:0924/131418.102806:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118745:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: PRAGMA cache_size=32
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118814:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118872:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118885:ERROR:database.cc(1598)] Passwords sqlite error 5, errno 0: database is locked, sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118904:ERROR:login_database.cc(657)] Unable to create the meta table.
+Sep 24, 2019 13:14:18.11 [11172:11282:0924/131418.118962:ERROR:password_store_default.cc(43)] Could not create/open login database.
+Sep 24, 2019 13:14:19.07 [11172:11193:0924/131419.071631:ERROR:service_worker_storage.cc(2190)] Failed to delete the database: Database IO error
+Sep 24, 2019 13:14:20.27 [11172:11192:0924/131420.278794:ERROR:gcm_store_impl.cc(413)] Destroy failed: IO error: /home/admin1/.config/google-chrome/Profile 1/GCM Store/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+Sep 24, 2019 13:14:20.27 [11172:11193:0924/131420.278984:ERROR:gcm_client_impl.cc(832)] Failed to reset GCM store
+Sep 24, 2019 13:14:29.24 [11172:11193:0924/131429.246758:ERROR:browser_process_sub_thread.cc(203)] Waited 323 ms for network service
+Sep 24, 2019 13:17:07.46                                                
+
+Sep 24, 2019 13:39:53.55 NEW SESSION
+Sep 24, 2019 13:39:53.55 [2958:2958:0924/133953.550405:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 13:39:53.78 [2918:2939:0924/133953.585026:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 24, 2019 13:39:54.12 Opening in existing browser session.
+Sep 24, 2019 17:39:28.42 [12876:12876:0924/173928.424793:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 17:39:28.44 [12837:12859:0924/173928.440251:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 24, 2019 17:39:28.53 Opening in existing browser session.
+Sep 24, 2019 17:52:23.30 [13315:13315:0924/175223.303645:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 17:52:23.32 [13277:13298:0924/175223.325818:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 24, 2019 17:52:23.38 Opening in existing browser session.
+Sep 24, 2019 18:04:42.91 [13909:13909:0924/180442.912848:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:04:42.92 [13871:13892:0924/180442.929475:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 24, 2019 18:04:43.04 Opening in existing browser session.
+Sep 24, 2019 18:07:55.08 [14233:14254:0924/180755.087555:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 24, 2019 18:07:55.16 Opening in existing browser session.
+Sep 24, 2019 18:34:34.11 [15303:15303:0924/183434.114670:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:34:34.14 [15265:15287:0924/183434.147442:ERROR:browser_process_sub_thread.cc(203)] Waited 13 ms for network service
+Sep 24, 2019 18:34:34.21 Opening in existing browser session.
+Sep 24, 2019 18:38:09.24 [15529:15529:0924/183809.239988:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:38:09.24 [15492:15513:0924/183809.247014:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 24, 2019 18:38:09.34 Opening in existing browser session.
+Sep 24, 2019 18:39:46.59 [15758:15758:0924/183946.592169:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:39:46.62 [15719:15740:0924/183946.628193:ERROR:browser_process_sub_thread.cc(203)] Waited 12 ms for network service
+Sep 24, 2019 18:39:46.70 Opening in existing browser session.
+Sep 24, 2019 18:43:39.39 [16026:16026:0924/184339.390039:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:43:39.40 [15988:16009:0924/184339.401419:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 24, 2019 18:43:39.46 Opening in existing browser session.
+Sep 24, 2019 18:45:59.34 [16176:16197:0924/184559.344858:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 24, 2019 18:45:59.43 Opening in existing browser session.
+Sep 24, 2019 18:47:49.41 [16450:16450:0924/184749.418848:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:47:49.44 [16412:16433:0924/184749.449479:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 24, 2019 18:47:49.53 Opening in existing browser session.
+Sep 24, 2019 18:50:55.45 [16715:16715:0924/185055.455936:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 18:50:55.46 [16676:16697:0924/185055.460208:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 24, 2019 18:50:55.69 Opening in existing browser session.
+Sep 24, 2019 19:05:01.05 [17163:17163:0924/190501.053541:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:05:01.06 [17125:17146:0924/190501.062799:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 24, 2019 19:05:01.14 Opening in existing browser session.
+Sep 24, 2019 19:09:36.86 [17488:17488:0924/190936.869610:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:09:36.89 [17448:17469:0924/190936.891256:ERROR:browser_process_sub_thread.cc(203)] Waited 12 ms for network service
+Sep 24, 2019 19:09:36.95 Opening in existing browser session.
+Sep 24, 2019 19:12:41.81 [17819:17819:0924/191241.818079:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:12:41.83 [17781:17802:0924/191241.834553:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 24, 2019 19:12:42.03 Opening in existing browser session.
+Sep 24, 2019 19:16:08.83 [18143:18143:0924/191608.835052:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:16:08.86 [18107:18128:0924/191608.863729:ERROR:browser_process_sub_thread.cc(203)] Waited 17 ms for network service
+Sep 24, 2019 19:16:08.99 Opening in existing browser session.
+Sep 24, 2019 19:20:00.80 [18426:18426:0924/192000.797186:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:20:00.81 [18388:18409:0924/192000.809452:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 24, 2019 19:20:00.89 Opening in existing browser session.
+Sep 24, 2019 19:23:52.60 [18723:18723:0924/192352.606794:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 24, 2019 19:23:52.60 [18686:18707:0924/192352.609687:ERROR:browser_process_sub_thread.cc(203)] Waited 11 ms for network service
+Sep 24, 2019 19:23:52.69 Opening in existing browser session.
+
+Sep 25, 2019 09:21:32.88 NEW SESSION
+Sep 25, 2019 09:21:32.88 [4854:4875:0925/092132.877951:ERROR:browser_process_sub_thread.cc(203)] Waited 15 ms for network service
+Sep 25, 2019 09:21:33.03 Opening in existing browser session.
+Sep 25, 2019 09:22:13.99 [5017:5017:0925/092213.996533:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:22:14.00 [4980:5000:0925/092214.008658:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 09:22:14.07 Opening in existing browser session.
+Sep 25, 2019 09:22:43.41 [5218:5218:0925/092243.414585:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:22:43.43 [5181:5201:0925/092243.430708:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 09:22:43.50 Opening in existing browser session.
+Sep 25, 2019 09:25:43.98 [5526:5526:0925/092543.985955:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:25:44.00 [5490:5511:0925/092544.008259:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 09:25:44.16 Opening in existing browser session.
+Sep 25, 2019 09:27:22.77 [5804:5804:0925/092722.775910:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:27:22.80 [5766:5787:0925/092722.803952:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 25, 2019 09:27:22.86 Opening in existing browser session.
+Sep 25, 2019 09:35:25.02 [6291:6291:0925/093525.020877:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:35:25.02 [6251:6272:0925/093525.026020:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 25, 2019 09:35:25.11 Opening in existing browser session.
+Sep 25, 2019 09:39:55.89 [6627:6627:0925/093955.889867:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 09:39:55.89 [6589:6610:0925/093955.892238:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 09:39:55.96 Opening in existing browser session.
+Sep 25, 2019 09:47:10.53 [7183:7204:0925/094710.531337:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 25, 2019 09:47:10.60 Opening in existing browser session.
+Sep 25, 2019 10:57:40.45 [10192:10192:0925/105740.451757:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 10:57:40.47 [10152:10173:0925/105740.473760:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 25, 2019 10:57:40.55 Opening in existing browser session.
+Sep 25, 2019 11:00:01.29 [10474:10474:0925/110001.298761:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:00:01.34 [10436:10457:0925/110001.344774:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 11:00:01.42 Opening in existing browser session.
+Sep 25, 2019 11:18:34.49 [11236:11236:0925/111834.498509:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:18:34.52 [11194:11215:0925/111834.528458:ERROR:browser_process_sub_thread.cc(203)] Waited 19 ms for network service
+Sep 25, 2019 11:18:34.59 Opening in existing browser session.
+Sep 25, 2019 11:31:22.81 [11790:11790:0925/113122.812829:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:31:22.93 Opening in existing browser session.
+Sep 25, 2019 11:45:54.40 [12858:12858:0925/114554.405463:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:45:54.42 [12818:12839:0925/114554.421533:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 25, 2019 11:45:54.52 Opening in existing browser session.
+Sep 25, 2019 11:50:34.58 [13115:13115:0925/115034.582131:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:50:34.63 [13076:13097:0925/115034.637374:ERROR:browser_process_sub_thread.cc(203)] Waited 13 ms for network service
+Sep 25, 2019 11:50:34.71 Opening in existing browser session.
+Sep 25, 2019 11:54:15.81 [13388:13388:0925/115415.818863:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 11:54:15.82 [13350:13371:0925/115415.819989:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 25, 2019 11:54:15.92 Opening in existing browser session.
+Sep 25, 2019 12:12:50.32 [14013:14013:0925/121250.326657:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:12:50.34 [13975:13996:0925/121250.340438:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 25, 2019 12:12:50.45 Opening in existing browser session.
+Sep 25, 2019 12:13:16.60 [14147:14147:0925/121316.603275:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:13:16.62 [14108:14128:0925/121316.623222:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 12:13:16.70 Opening in existing browser session.
+Sep 25, 2019 12:28:42.34 [14806:14806:0925/122842.340395:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:28:42.37 [14766:14787:0925/122842.374533:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 12:28:42.46 Opening in existing browser session.
+Sep 25, 2019 12:31:19.68 [15068:15068:0925/123119.687787:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:31:19.70 [15027:15047:0925/123119.700246:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 25, 2019 12:31:19.79 Opening in existing browser session.
+Sep 25, 2019 12:34:06.43 [15337:15337:0925/123406.438219:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:34:06.46 [15301:15321:0925/123406.468260:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 25, 2019 12:34:06.55 Opening in existing browser session.
+Sep 25, 2019 12:39:39.94 [15681:15702:0925/123939.942690:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 25, 2019 12:39:40.02 Opening in existing browser session.
+Sep 25, 2019 12:45:58.16 [16058:16058:0925/124558.161088:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:45:58.17 [16019:16040:0925/124558.176576:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 12:45:58.27 Opening in existing browser session.
+Sep 25, 2019 12:47:59.30 [16351:16351:0925/124759.305296:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:47:59.33 [16312:16332:0925/124759.331520:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 25, 2019 12:47:59.41 Opening in existing browser session.
+Sep 25, 2019 12:55:47.03 [16874:16874:0925/125547.035189:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:55:47.06 [16835:16857:0925/125547.065754:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 25, 2019 12:55:47.14 Opening in existing browser session.
+Sep 25, 2019 12:56:59.70 [17115:17115:0925/125659.707728:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 12:56:59.76 [17075:17096:0925/125659.768857:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 12:56:59.88 Opening in existing browser session.
+Sep 25, 2019 13:07:47.67 [18002:18002:0925/130747.673270:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:07:47.67 [17963:17984:0925/130747.677079:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+Sep 25, 2019 13:07:47.75 Opening in existing browser session.
+Sep 25, 2019 13:16:48.53 [18201:18201:0925/131648.534814:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:16:48.56 [18161:18182:0925/131648.561224:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 25, 2019 13:16:48.63 Opening in existing browser session.
+Sep 25, 2019 13:20:53.28 [18568:18568:0925/132053.285890:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:20:53.30 --2019-09-25 13:20:53--  https://clients2.google.com/cr/report
+Sep 25, 2019 13:20:53.31 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 25, 2019 13:20:53.31 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 25, 2019 13:20:55.91 HTTP request sent, awaiting response... 200 OK
+Sep 25, 2019 13:20:55.91 Length: unspecified [text/plain]
+Sep 25, 2019 13:20:55.91 Saving to: ‘/dev/fd/4’
+Sep 25, 2019 13:20:55.91 
+Sep 25, 2019 13:20:55.91 Crash dump id: 
+Sep 25, 2019 13:20:55.91      0Ke7e2bb00a5fcd721 
+Sep 25, 2019 13:20:56.01                                       
+Sep 25, 2019 13:35:29.14 [18871:18871:0925/133529.140584:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:35:29.16 [18833:18854:0925/133529.166946:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+Sep 25, 2019 13:35:29.25 Opening in existing browser session.
+Sep 25, 2019 13:35:54.59 [19004:19004:0925/133554.592937:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:35:54.60 [18966:18986:0925/133554.608197:ERROR:browser_process_sub_thread.cc(203)] Waited 21 ms for network service
+Sep 25, 2019 13:35:54.67 Opening in existing browser session.
+Sep 25, 2019 13:37:43.12 [19250:19250:0925/133743.128004:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 13:37:43.14 [19212:19233:0925/133743.146904:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 25, 2019 13:37:43.22 Opening in existing browser session.
+Sep 25, 2019 14:06:08.30 [20529:20552:0925/140608.305827:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 25, 2019 14:06:08.39 Opening in existing browser session.
+Sep 25, 2019 14:07:54.95 [20858:20858:0925/140754.953278:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:07:54.98 [20821:20841:0925/140754.982299:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 14:07:55.05 Opening in existing browser session.
+Sep 25, 2019 14:12:20.01 [21206:21206:0925/141220.017797:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:12:20.04 [21168:21189:0925/141220.040826:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 25, 2019 14:12:20.11 Opening in existing browser session.
+Sep 25, 2019 14:14:59.67 [21441:21441:0925/141459.677909:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:14:59.70 [21401:21422:0925/141459.704529:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 25, 2019 14:14:59.80 Opening in existing browser session.
+Sep 25, 2019 14:33:42.40 [22170:22170:0925/143342.401991:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:33:42.40 [22132:22154:0925/143342.409343:ERROR:browser_process_sub_thread.cc(203)] Waited 1 ms for network service
+Sep 25, 2019 14:33:42.48 Opening in existing browser session.
+Sep 25, 2019 14:37:12.48 [22419:22419:0925/143712.487476:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:37:12.50 [22381:22402:0925/143712.502253:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 25, 2019 14:37:12.58 Opening in existing browser session.
+Sep 25, 2019 14:40:11.47 [22698:22698:0925/144011.472237:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:40:11.49 [22657:22678:0925/144011.497556:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 25, 2019 14:40:11.57 Opening in existing browser session.
+Sep 25, 2019 14:43:49.52 [22997:22997:0925/144349.527704:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:43:49.56 [22959:22979:0925/144349.561511:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 14:43:49.63 Opening in existing browser session.
+Sep 25, 2019 14:46:09.76 [23211:23232:0925/144609.760260:ERROR:browser_process_sub_thread.cc(203)] Waited 21 ms for network service
+Sep 25, 2019 14:46:09.84 Opening in existing browser session.
+Sep 25, 2019 14:49:13.56 [23517:23517:0925/144913.562279:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:49:13.56 [23478:23498:0925/144913.562515:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 25, 2019 14:49:13.64 Opening in existing browser session.
+Sep 25, 2019 14:56:57.55 [23824:23845:0925/145657.559149:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 25, 2019 14:56:57.65 Opening in existing browser session.
+Sep 25, 2019 14:57:10.83 [23985:23985:0925/145710.832536:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 14:57:10.85 [23948:23968:0925/145710.855435:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 25, 2019 14:57:11.03 Opening in existing browser session.
+
+Sep 25, 2019 19:03:27.66 NEW SESSION
+Sep 25, 2019 19:03:27.66 [25269:25269:0925/190327.666885:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 25, 2019 19:03:28.19 [25269:25269:0925/190328.193327:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 25, 2019 19:07:12.80 --2019-09-25 19:07:12--  https://clients2.google.com/cr/report
+Sep 25, 2019 19:07:12.82 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 25, 2019 19:07:12.83 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 25, 2019 19:07:15.21 HTTP request sent, awaiting response... 200 OK
+Sep 25, 2019 19:07:15.21 Length: unspecified [text/plain]
+Sep 25, 2019 19:07:15.22 Saving to: ‘/dev/fd/4’
+Sep 25, 2019 19:07:15.22 
+Sep 25, 2019 19:07:15.22 Crash dump id: 946656788e3e337b
+Sep 25, 2019 19:26:24.17 [25229:25250:0925/192624.171866:ERROR:browser_process_sub_thread.cc(203)] Waited 323 ms for network service
+
+Sep 26, 2019 09:37:47.87 NEW SESSION
+Sep 26, 2019 09:37:47.87 [5923:5944:0926/093747.876715:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 09:37:48.06 Opening in existing browser session.
+Sep 26, 2019 09:39:05.39 [6096:6117:0926/093905.394862:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 09:39:05.45 Opening in existing browser session.
+Sep 26, 2019 09:40:03.64 [6368:6368:0926/094003.644586:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 09:40:03.69 [6327:6347:0926/094003.698072:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 09:40:03.77 Opening in existing browser session.
+Sep 26, 2019 09:45:25.70 [6743:6743:0926/094525.702490:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 09:45:25.72 [6705:6726:0926/094525.722353:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 09:45:25.80 Opening in existing browser session.
+Sep 26, 2019 09:57:10.98 [7136:7158:0926/095710.978294:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 09:57:11.11 Opening in existing browser session.
+Sep 26, 2019 10:00:45.04 [7442:7442:0926/100045.046377:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:00:45.06 [7403:7424:0926/100045.068271:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 10:00:45.14 Opening in existing browser session.
+Sep 26, 2019 10:03:12.14 [7708:7708:0926/100312.144858:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:03:12.17 [7671:7691:0926/100312.174852:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 10:03:12.25 Opening in existing browser session.
+Sep 26, 2019 10:09:20.07 [8111:8111:0926/100920.074439:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:09:20.10 [8073:8094:0926/100920.100336:ERROR:browser_process_sub_thread.cc(203)] Waited 13 ms for network service
+Sep 26, 2019 10:09:20.16 Opening in existing browser session.
+Sep 26, 2019 10:24:29.88 [8612:8612:0926/102429.887206:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:24:29.88 [8574:8595:0926/102429.889546:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 10:24:29.96 Opening in existing browser session.
+Sep 26, 2019 10:26:13.73 [8784:8784:0926/102613.731347:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:26:13.73 [8744:8767:0926/102613.736549:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 10:26:13.82 Opening in existing browser session.
+Sep 26, 2019 10:26:47.87 [8994:8994:0926/102647.879719:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:26:47.90 [8957:8977:0926/102647.907983:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 10:26:47.97 Opening in existing browser session.
+Sep 26, 2019 10:28:37.41 [9209:9209:0926/102837.409913:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:28:37.42 [9170:9191:0926/102837.423313:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 10:28:37.50 Opening in existing browser session.
+Sep 26, 2019 10:30:46.45 Opening in existing browser session.
+Sep 26, 2019 10:34:57.55 [9714:9714:0926/103457.551485:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:34:57.66 [9677:9698:0926/103457.663555:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 10:34:57.74 Opening in existing browser session.
+Sep 26, 2019 10:38:12.09 [10010:10031:0926/103812.091617:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 10:38:12.17 Opening in existing browser session.
+Sep 26, 2019 10:40:41.28 [10284:10284:0926/104041.285958:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:40:41.29 [10246:10267:0926/104041.297444:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 10:40:41.39 Opening in existing browser session.
+Sep 26, 2019 10:42:55.61 [10513:10534:0926/104255.616041:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 10:42:55.70 Opening in existing browser session.
+Sep 26, 2019 10:44:26.70 [10758:10758:0926/104426.705180:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:44:26.71 [10720:10741:0926/104426.718411:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 10:44:26.90 Opening in existing browser session.
+Sep 26, 2019 10:55:48.90 [11219:11219:0926/105548.904018:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 10:55:48.92 [11181:11202:0926/105548.924793:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 10:55:49.00 Opening in existing browser session.
+Sep 26, 2019 11:22:26.73 [12013:12013:0926/112226.735341:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 11:22:26.74 [11975:11996:0926/112226.744736:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 11:22:26.82 Opening in existing browser session.
+Sep 26, 2019 11:24:21.72 [12237:12237:0926/112421.722292:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 11:24:21.72 [12197:12218:0926/112421.722317:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 11:24:21.82 Opening in existing browser session.
+Sep 26, 2019 13:44:16.87 [16910:16931:0926/134416.876425:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 13:44:16.96 Opening in existing browser session.
+Sep 26, 2019 13:46:02.17 [17129:17150:0926/134602.172703:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 26, 2019 13:46:02.27 Opening in existing browser session.
+Sep 26, 2019 13:47:22.78 [17358:17378:0926/134722.781246:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 13:47:22.86 Opening in existing browser session.
+Sep 26, 2019 13:54:25.56 [17774:17795:0926/135425.562545:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 13:54:25.66 Opening in existing browser session.
+Sep 26, 2019 13:55:01.58 [17937:17937:0926/135501.581590:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 13:55:01.61 [17895:17915:0926/135501.615425:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 13:55:01.69 Opening in existing browser session.
+Sep 26, 2019 13:56:08.78 [18168:18168:0926/135608.788996:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 13:56:08.81 [18131:18151:0926/135608.812931:ERROR:browser_process_sub_thread.cc(203)] Waited 18 ms for network service
+Sep 26, 2019 13:56:08.86 Opening in existing browser session.
+Sep 26, 2019 14:10:03.09 [18665:18665:0926/141003.094911:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:10:03.12 [18625:18646:0926/141003.124006:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 14:10:03.18 Opening in existing browser session.
+Sep 26, 2019 14:15:06.36 [18932:18932:0926/141506.367541:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:15:06.39 [18895:18916:0926/141506.388679:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 14:15:06.48 Opening in existing browser session.
+Sep 26, 2019 14:15:28.22 [19021:19041:0926/141528.224606:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 14:15:28.22 [19059:19059:0926/141528.225707:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:15:28.33 Opening in existing browser session.
+Sep 26, 2019 14:19:12.60 [19328:19328:0926/141912.601788:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:19:12.62 [19287:19308:0926/141912.625352:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 14:19:12.70 Opening in existing browser session.
+Sep 26, 2019 14:21:51.43 [19530:19530:0926/142151.434215:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:21:51.46 [19493:19514:0926/142151.463046:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 14:21:52.04 Opening in existing browser session.
+Sep 26, 2019 14:22:16.83 [19628:19648:0926/142216.833980:ERROR:browser_process_sub_thread.cc(203)] Waited 29 ms for network service
+Sep 26, 2019 14:22:16.89 Opening in existing browser session.
+Sep 26, 2019 14:24:28.44 [19872:19893:0926/142428.444312:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 14:24:28.51 Opening in existing browser session.
+Sep 26, 2019 14:26:12.32 [20164:20164:0926/142612.321953:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:26:12.34 [20126:20146:0926/142612.346656:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 14:26:12.41 Opening in existing browser session.
+Sep 26, 2019 14:28:19.24 [20406:20406:0926/142819.246222:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:28:19.27 [20367:20387:0926/142819.272388:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 14:28:19.35 Opening in existing browser session.
+Sep 26, 2019 14:28:45.62 [20500:20520:0926/142845.625114:ERROR:browser_process_sub_thread.cc(203)] Waited 11 ms for network service
+Sep 26, 2019 14:28:45.70 Opening in existing browser session.
+Sep 26, 2019 14:30:10.69 [20775:20775:0926/143010.697768:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:30:10.70 [20737:20757:0926/143010.701461:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 14:30:10.80 Opening in existing browser session.
+Sep 26, 2019 14:31:04.91 [20947:20967:0926/143104.917139:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 14:31:04.99 Opening in existing browser session.
+Sep 26, 2019 14:52:55.78 [21361:21361:0926/145255.786123:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:52:55.81 [21322:21343:0926/145255.813521:ERROR:browser_process_sub_thread.cc(203)] Waited 21 ms for network service
+Sep 26, 2019 14:52:55.88 Opening in existing browser session.
+Sep 26, 2019 14:56:49.07 [21627:21627:0926/145649.078260:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 14:56:49.09 [21591:21611:0926/145649.095420:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+Sep 26, 2019 14:56:49.16 Opening in existing browser session.
+Sep 26, 2019 15:11:39.62 [22361:22361:0926/151139.622983:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:11:39.62 [22321:22343:0926/151139.625389:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 15:11:39.71 Opening in existing browser session.
+Sep 26, 2019 15:12:27.85 [22534:22534:0926/151227.856182:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:12:27.88 [22498:22518:0926/151227.885204:ERROR:browser_process_sub_thread.cc(203)] Waited 12 ms for network service
+Sep 26, 2019 15:12:28.03 Opening in existing browser session.
+Sep 26, 2019 15:21:48.50 [23069:23090:0926/152148.503920:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 15:21:48.58 Opening in existing browser session.
+Sep 26, 2019 15:22:52.91 [23327:23327:0926/152252.910793:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:22:52.92 [23291:23311:0926/152252.929569:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 15:22:53.02 Opening in existing browser session.
+Sep 26, 2019 15:26:21.84 [23636:23636:0926/152621.845952:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:26:21.88 [23598:23618:0926/152621.885459:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 26, 2019 15:26:21.96 Opening in existing browser session.
+Sep 26, 2019 15:46:10.69 [24182:24182:0926/154610.695261:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:46:10.72 [24135:24156:0926/154610.720499:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 15:46:10.81 Opening in existing browser session.
+Sep 26, 2019 15:47:32.58 [24409:24409:0926/154732.588296:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:47:32.64 [24371:24391:0926/154732.642878:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 15:47:32.74 Opening in existing browser session.
+Sep 26, 2019 15:52:17.05 [24729:24729:0926/155217.055552:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:52:17.09 [24690:24711:0926/155217.092742:ERROR:browser_process_sub_thread.cc(203)] Waited 11 ms for network service
+Sep 26, 2019 15:52:17.15 Opening in existing browser session.
+Sep 26, 2019 15:53:44.33 [24923:24923:0926/155344.337507:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:53:44.35 [24885:24906:0926/155344.350398:ERROR:browser_process_sub_thread.cc(203)] Waited 16 ms for network service
+Sep 26, 2019 15:53:44.41 Opening in existing browser session.
+Sep 26, 2019 15:55:28.32 [25108:25129:0926/155528.323058:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 15:55:28.39 Opening in existing browser session.
+Sep 26, 2019 15:56:19.33 [25348:25348:0926/155619.333623:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 15:56:19.36 [25308:25328:0926/155619.363150:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 26, 2019 15:56:19.45 Opening in existing browser session.
+Sep 26, 2019 16:01:01.17 [25661:25661:0926/160101.178328:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:01:01.23 [25620:25641:0926/160101.230854:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 16:01:01.30 Opening in existing browser session.
+Sep 26, 2019 16:02:39.90 [25865:25865:0926/160239.907228:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:02:39.92 [25827:25848:0926/160239.921003:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 16:02:39.99 Opening in existing browser session.
+Sep 26, 2019 16:03:14.02 [26006:26006:0926/160314.022954:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:03:14.11 Opening in existing browser session.
+Sep 26, 2019 16:06:22.70 [26225:26246:0926/160622.703838:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 16:06:22.78 Opening in existing browser session.
+Sep 26, 2019 16:08:19.42 [26525:26525:0926/160819.427988:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:08:19.46 [26487:26508:0926/160819.462162:ERROR:browser_process_sub_thread.cc(203)] Waited 18 ms for network service
+Sep 26, 2019 16:08:19.53 Opening in existing browser session.
+Sep 26, 2019 16:08:29.15 [26648:26648:0926/160829.152604:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:08:29.17 [26610:26630:0926/160829.172712:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 16:08:29.24 Opening in existing browser session.
+Sep 26, 2019 16:09:25.75 [26739:26759:0926/160925.756519:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 26, 2019 16:09:25.83 Opening in existing browser session.
+Sep 26, 2019 16:11:16.20 [26994:26994:0926/161116.200094:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:11:16.22 [26955:26976:0926/161116.227550:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 16:11:16.30 Opening in existing browser session.
+Sep 26, 2019 16:11:29.32 [27119:27119:0926/161129.328626:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:11:29.33 [27082:27102:0926/161129.332105:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 16:11:29.42 Opening in existing browser session.
+Sep 26, 2019 16:12:38.00 [27383:27383:0926/161238.009336:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:12:38.04 [27346:27366:0926/161238.046416:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 26, 2019 16:12:38.10 Opening in existing browser session.
+Sep 26, 2019 16:15:29.69 [27859:27859:0926/161529.695905:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:15:29.79 Opening in existing browser session.
+Sep 26, 2019 16:17:31.84 [28117:28117:0926/161731.843826:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:17:32.09 [28117:28117:0926/161732.097715:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 16:18:01.35 [28824:28824:0926/161801.351372:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:18:01.36 [28786:28807:0926/161801.362613:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 16:18:01.45 Opening in existing browser session.
+Sep 26, 2019 16:18:24.92 [28979:28979:0926/161824.925836:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:18:24.94 [28941:28961:0926/161824.942424:ERROR:browser_process_sub_thread.cc(203)] Waited 12 ms for network service
+Sep 26, 2019 16:18:25.01 Opening in existing browser session.
+Sep 26, 2019 16:19:09.64 [29215:29215:0926/161909.646432:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:19:09.68 [29174:29194:0926/161909.682103:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 16:19:09.78 Opening in existing browser session.
+Sep 26, 2019 16:28:00.84 [29619:29619:0926/162800.845796:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:28:00.86 [29581:29602:0926/162800.864021:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 16:28:00.96 Opening in existing browser session.
+Sep 26, 2019 16:42:12.76 [29998:29998:0926/164212.766428:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:42:12.77 [29961:29982:0926/164212.778375:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 16:42:12.87 Opening in existing browser session.
+Sep 26, 2019 16:52:00.47 [30445:30445:0926/165200.473482:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:52:00.47 [30404:30425:0926/165200.477435:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 26, 2019 16:52:00.56 Opening in existing browser session.
+Sep 26, 2019 16:59:34.91 [30843:30843:0926/165934.911064:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 16:59:34.93 [30803:30824:0926/165934.932637:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 16:59:35.02 Opening in existing browser session.
+Sep 26, 2019 17:04:14.15 --2019-09-26 17:04:14--  https://clients2.google.com/cr/report
+Sep 26, 2019 17:04:14.18 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 17:04:14.19 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 17:04:16.66 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 17:04:16.66 Length: unspecified [text/plain]
+Sep 26, 2019 17:04:16.66 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 17:04:16.66 
+Sep 26, 2019 17:04:16.66 
+Sep 26, 2019 17:04:16.66      0K Crash dump id:  fd5a01abd7b3afcb 
+Sep 26, 2019 17:15:10.43 [31593:31593:0926/171510.435378:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:15:10.44 [31554:31576:0926/171510.445492:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 17:15:10.52 Opening in existing browser session.
+Sep 26, 2019 17:16:21.45 [31733:31733:0926/171621.454913:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:16:21.48 [31695:31716:0926/171621.484550:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 17:16:21.56 Opening in existing browser session.
+Sep 26, 2019 17:19:36.41 [32086:32086:0926/171936.417071:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:19:36.42 [32044:32065:0926/171936.427937:ERROR:browser_process_sub_thread.cc(203)] Waited 2 ms for network service
+Sep 26, 2019 17:19:36.52 Opening in existing browser session.
+Sep 26, 2019 17:29:07.78 [32522:32522:0926/172907.780292:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:29:07.79 [32484:32505:0926/172907.791233:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 17:29:07.87 Opening in existing browser session.
+Sep 26, 2019 17:52:08.65 [1043:1043:0926/175208.654177:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:52:08.67 [1001:1027:0926/175208.674846:ERROR:browser_process_sub_thread.cc(203)] Waited 2 ms for network service
+Sep 26, 2019 17:52:08.86 Opening in existing browser session.
+Sep 26, 2019 17:55:53.87 [1458:1458:0926/175553.877014:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:55:53.91 [1418:1439:0926/175553.918234:ERROR:browser_process_sub_thread.cc(203)] Waited 24 ms for network service
+Sep 26, 2019 17:55:54.00 Opening in existing browser session.
+Sep 26, 2019 17:58:55.60 [1785:1785:0926/175855.606935:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 17:58:55.62 [1747:1768:0926/175855.623232:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+Sep 26, 2019 17:58:55.68 Opening in existing browser session.
+Sep 26, 2019 18:06:05.73 [2090:2090:0926/180605.730809:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:06:05.76 [2052:2073:0926/180605.767199:ERROR:browser_process_sub_thread.cc(203)] Waited 19 ms for network service
+Sep 26, 2019 18:06:05.86 Opening in existing browser session.
+Sep 26, 2019 18:06:17.60                                         --2019-09-26 18:06:17--  https://clients2.google.com/cr/report
+Sep 26, 2019 18:06:17.62 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 18:06:17.64 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 18:06:20.56 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 18:06:20.56 Length: unspecified [text/plain]
+Sep 26, 2019 18:06:20.56 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 18:06:20.56 
+Sep 26, 2019 18:06:20.56 
+Sep 26, 2019 18:06:20.56      0KCrash dump id:  21ebdc05c5dd29c1 
+Sep 26, 2019 18:06:20.76                                              [28117:28117:0926/180620.763464:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 18:09:09.65 [2335:2335:0926/180909.651928:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:09:09.66 [2296:2317:0926/180909.662154:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 26, 2019 18:09:09.74 Opening in existing browser session.
+Sep 26, 2019 18:13:34.55 [28117:28117:0926/181334.553706:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 18:15:52.12 [2773:2773:0926/181552.120711:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:15:52.12 [2734:2755:0926/181552.123401:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 18:15:52.22 Opening in existing browser session.
+Sep 26, 2019 18:21:38.03 [3168:3189:0926/182138.030101:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 18:21:38.12 Opening in existing browser session.
+Sep 26, 2019 18:22:00.49 [28117:28117:0926/182200.498787:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 18:26:54.22 [3493:3493:0926/182654.227803:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:26:54.24 [3455:3476:0926/182654.248779:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 26, 2019 18:26:54.33 Opening in existing browser session.
+Sep 26, 2019 18:28:20.85 [3726:3726:0926/182820.847613:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:28:20.85 [3688:3708:0926/182820.853338:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 18:28:20.95 Opening in existing browser session.
+Sep 26, 2019 18:33:12.41 [4029:4029:0926/183312.409048:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:33:12.42 [3995:4015:0926/183312.421964:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 26, 2019 18:33:12.53 Opening in existing browser session.
+Sep 26, 2019 18:33:37.50 [4255:4255:0926/183337.500332:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:33:37.54 [4217:4237:0926/183337.543312:ERROR:browser_process_sub_thread.cc(203)] Waited 13 ms for network service
+Sep 26, 2019 18:33:37.64 Opening in existing browser session.
+Sep 26, 2019 18:37:15.45 [4800:4800:0926/183715.452548:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:37:15.47 [4763:4784:0926/183715.473313:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Sep 26, 2019 18:37:15.56 Opening in existing browser session.
+Sep 26, 2019 18:39:17.02 [5103:5103:0926/183917.028639:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 26, 2019 18:39:17.27 Opening in existing browser session.
+Sep 26, 2019 19:29:44.38 --2019-09-26 19:29:44--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:29:44.41 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:29:44.41 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:29:46.87 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:29:46.87 Length: unspecified [text/plain]
+Sep 26, 2019 19:29:46.87 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:29:46.87 
+Sep 26, 2019 19:29:46.87 Crash dump id: 3c48ee048139195c
+Sep 26, 2019 19:30:03.70 --2019-09-26 19:30:03--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:30:03.70 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:80a::200e
+Sep 26, 2019 19:30:03.70 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:30:06.17 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:30:06.17 Length: unspecified [text/plain]
+Sep 26, 2019 19:30:06.17 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:30:06.17 
+Sep 26, 2019 19:30:06.17 
+Sep 26, 2019 19:30:06.17      0KCrash dump id:  1592d862d8a37f95 
+Sep 26, 2019 19:31:55.08                                 [28117:28117:0926/193155.088080:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 19:39:15.99 [28117:28117:0926/193915.999302:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 26, 2019 19:40:09.55 
+Sep 26, 2019 19:40:09.55 
+Sep 26, 2019 19:40:09.55 #
+Sep 26, 2019 19:40:09.55 # Fatal error in , line 0
+Sep 26, 2019 19:40:09.55 # ignored
+Sep 26, 2019 19:40:09.55 #
+Sep 26, 2019 19:40:09.55 #
+Sep 26, 2019 19:40:09.55 #
+Sep 26, 2019 19:40:09.55 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:09.65 --2019-09-26 19:40:09--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:09.67 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:09.67 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:12.15 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:40:12.15 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:12.15 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:12.15 
+Sep 26, 2019 19:40:12.15 
+Sep 26, 2019 19:40:12.15      0KCrash dump id:  2ba766f87f552ed8
+Sep 26, 2019 19:40:12.55                                                       
+Sep 26, 2019 19:40:12.55 
+Sep 26, 2019 19:40:12.55 #
+Sep 26, 2019 19:40:12.55 # Fatal error in , line 0
+Sep 26, 2019 19:40:12.55 # ignored
+Sep 26, 2019 19:40:12.55 #
+Sep 26, 2019 19:40:12.55 #
+Sep 26, 2019 19:40:12.55 #
+Sep 26, 2019 19:40:12.55 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:12.65 --2019-09-26 19:40:12--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:12.65 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:12.65 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:15.07 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:40:15.25 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:15.25 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:15.25 
+Sep 26, 2019 19:40:15.25 Crash dump id: e3cd65b43ffe8b2b
+Sep 26, 2019 19:40:15.25 
+Sep 26, 2019 19:40:16.04      0K                                 
+Sep 26, 2019 19:40:16.05 
+Sep 26, 2019 19:40:16.05 #
+Sep 26, 2019 19:40:16.05 # Fatal error in , line 0
+Sep 26, 2019 19:40:16.05 # ignored
+Sep 26, 2019 19:40:16.05 #
+Sep 26, 2019 19:40:16.05 #
+Sep 26, 2019 19:40:16.05 #
+Sep 26, 2019 19:40:16.05 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:16.12 --2019-09-26 19:40:16--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:16.12 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:16.12 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:17.63 HTTP request sent, awaiting response... 
+Sep 26, 2019 19:40:17.63 
+Sep 26, 2019 19:40:17.63 #
+Sep 26, 2019 19:40:17.63 # Fatal error in , line 0
+Sep 26, 2019 19:40:17.63 # ignored
+Sep 26, 2019 19:40:17.63 #
+Sep 26, 2019 19:40:17.63 #
+Sep 26, 2019 19:40:17.63 #
+Sep 26, 2019 19:40:17.63 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:18.45 200 OK
+Sep 26, 2019 19:40:18.45 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:18.45 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:18.45 
+Sep 26, 2019 19:40:18.45 
+Sep 26, 2019 19:40:18.45      0KCrash dump id:  5c6db8f0166e595a 
+Sep 26, 2019 19:40:18.53                                         --2019-09-26 19:40:18--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:18.53 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:18.53 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:20.41 HTTP request sent, awaiting response... 
+Sep 26, 2019 19:40:20.41 
+Sep 26, 2019 19:40:20.41 #
+Sep 26, 2019 19:40:20.41 # Fatal error in , line 0
+Sep 26, 2019 19:40:20.41 # ignored
+Sep 26, 2019 19:40:20.41 #
+Sep 26, 2019 19:40:20.41 #
+Sep 26, 2019 19:40:20.41 #
+Sep 26, 2019 19:40:20.41 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:20.88 200 OK
+Sep 26, 2019 19:40:20.88 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:20.88 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:20.88 
+Sep 26, 2019 19:40:20.88 Crash dump id: f473584cb5cc460e
+Sep 26, 2019 19:40:20.88 
+Sep 26, 2019 19:40:20.95      0K                           --2019-09-26 19:40:20--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:20.95 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:20.95 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:21.63 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:40:21.63 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:21.63 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:21.63 
+Sep 26, 2019 19:40:21.63 
+Sep 26, 2019 19:40:21.63      0K Crash dump id:  043d57a523425c7c 
+Sep 26, 2019 19:40:23.17                                     
+Sep 26, 2019 19:40:23.17 
+Sep 26, 2019 19:40:23.17 #
+Sep 26, 2019 19:40:23.17 # Fatal error in , line 0
+Sep 26, 2019 19:40:23.17 # ignored
+Sep 26, 2019 19:40:23.17 #
+Sep 26, 2019 19:40:23.17 #
+Sep 26, 2019 19:40:23.17 #
+Sep 26, 2019 19:40:23.17 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:40:23.25 --2019-09-26 19:40:23--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:40:23.25 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:40:23.25 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:40:25.39 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:40:25.39 Length: unspecified [text/plain]
+Sep 26, 2019 19:40:25.39 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:40:25.39 
+Sep 26, 2019 19:40:25.39 
+Sep 26, 2019 19:40:25.39      0KCrash dump id:  8a280e8de663d617 
+Sep 26, 2019 19:41:11.77                                        
+Sep 26, 2019 19:41:11.77 
+Sep 26, 2019 19:41:11.77 #
+Sep 26, 2019 19:41:11.77 # Fatal error in , line 0
+Sep 26, 2019 19:41:11.77 # ignored
+Sep 26, 2019 19:41:11.77 #
+Sep 26, 2019 19:41:11.77 #
+Sep 26, 2019 19:41:11.77 #
+Sep 26, 2019 19:41:11.77 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:41:11.85 --2019-09-26 19:41:11--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:41:11.86 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:41:11.86 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:41:14.20 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:41:14.20 Length: unspecified [text/plain]
+Sep 26, 2019 19:41:14.20 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:41:14.20 
+Sep 26, 2019 19:41:14.20 
+Sep 26, 2019 19:41:14.20      0KCrash dump id:  ee6966c8077df41d 
+Sep 26, 2019 19:41:14.43                                              
+Sep 26, 2019 19:41:14.43 
+Sep 26, 2019 19:41:14.43 #
+Sep 26, 2019 19:41:14.43 # Fatal error in , line 0
+Sep 26, 2019 19:41:14.43 # ignored
+Sep 26, 2019 19:41:14.43 #
+Sep 26, 2019 19:41:14.43 #
+Sep 26, 2019 19:41:14.43 #
+Sep 26, 2019 19:41:14.43 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:41:14.51 --2019-09-26 19:41:14--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:41:14.51 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:41:14.51 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:41:16.95 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:41:16.95 Length: unspecified [text/plain]
+Sep 26, 2019 19:41:16.95 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:41:16.95 
+Sep 26, 2019 19:41:16.95 Crash dump id: a320127775f2e3e2
+Sep 26, 2019 19:41:16.95 
+Sep 26, 2019 19:41:17.22      0K                                 
+Sep 26, 2019 19:41:17.22 
+Sep 26, 2019 19:41:17.22 #
+Sep 26, 2019 19:41:17.22 # Fatal error in , line 0
+Sep 26, 2019 19:41:17.22 # ignored
+Sep 26, 2019 19:41:17.22 #
+Sep 26, 2019 19:41:17.22 #
+Sep 26, 2019 19:41:17.22 #
+Sep 26, 2019 19:41:17.22 #FailureMessage Object: 0x7fff98cc7510#0 0x55fe7e3485f9 <unknown>
+Sep 26, 2019 19:41:17.30 --2019-09-26 19:41:17--  https://clients2.google.com/cr/report
+Sep 26, 2019 19:41:17.30 Resolving clients2.google.com (clients2.google.com)... 172.217.26.238, 2404:6800:4009:805::200e
+Sep 26, 2019 19:41:17.30 Connecting to clients2.google.com (clients2.google.com)|172.217.26.238|:443... connected.
+Sep 26, 2019 19:41:19.46 HTTP request sent, awaiting response... 200 OK
+Sep 26, 2019 19:41:19.46 Length: unspecified [text/plain]
+Sep 26, 2019 19:41:19.46 Saving to: ‘/dev/fd/4’
+Sep 26, 2019 19:41:19.46 
+Sep 26, 2019 19:41:19.46 Crash dump id: 9c51f479a2c1eccc
+Sep 26, 2019 19:41:19.46 

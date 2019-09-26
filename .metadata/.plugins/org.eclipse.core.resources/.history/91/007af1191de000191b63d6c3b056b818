@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+	background-color: #000;
+}
+
+body{
+	border: 2px solid #fff;
+	background-color: #777;
+}
+
+form{
+	background-color: #777;
+}
+
+header{
+	background-color: #f00;
+	
+}
+
+h1{
+	background-color: #f00;
+	
+}

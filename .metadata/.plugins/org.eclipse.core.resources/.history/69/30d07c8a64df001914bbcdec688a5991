@@ -1,0 +1,45 @@
+package com.login;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class RegistrationServlet
+ */
+@WebServlet("/RegistrationServlet")
+public class RegistrationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public RegistrationServlet() {
+        super();
+    }
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		UserRegistration userReg = new UserRegistration();
+		User user = new User();
+				
+		String firstname = request.getParameter("firstname");
+		String lastname = request.getParameter("lastname");
+		String email = request.getParameter("email");
+		String contactNumber = request.getParameter("contactNumber");
+		String password = request.getParameter("password");
+		
+//		user.setFirstname(firstname);
+//		user.setLastname(lastname);
+//		user.setEmail(email);
+//		user.setContactNumber(contactNumber);
+//		user.setPassword(password);		
+		//userReg.RegisterUser(user);
+		
+		userReg.RegisterUser(firstname,lastname,email,contactNumber,password);
+		//System.out.println(regstatus);
+		
+		response.sendRedirect("login.jsp");
+	}
+
+}

@@ -1,0 +1,58 @@
+package com.bridgelabz.login;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Login
+ */
+@WebServlet("/login")
+public class Login extends HttpServlet 
+{
+	private static final long serialVersionUID = 1L;
+       
+    public Login() {
+        super();
+        
+    }
+    
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		UserDAO userDao = new UserDAOImplementation();
+		
+		String username = request.getParameter("email");
+		String passwordCheck = request.getParameter("password");
+		String submitType = request.getParameter("submit");
+		System.out.println("submitType = "+submitType);
+		
+		// Get the username and password from user and check in the database
+		Users user = userDao.getFromDatabase(username, passwordCheck); 
+		
+		// if submitType equals login and dB is not empty and username is not null
+		if(submitType.equals("login") && user != null && user.getName() != null)
+		{
+			request.setAttribute("message", user.getName());
+			request.getRequestDispatcher("Success.jsp").forward(request, response);
+		}
+		else if(submitType.equals("register"))
+		{
+			user.setName(request.getParameter("Name"));
+			user.setEmail(username);
+			user.setPassword(passwordCheck);			
+			userDao.insertUserIntoDatabase(user);
+			request.setAttribute("Registrationmessage", "Registration Completed");
+			request.getRequestDispatcher("index.jsp").forward(request, response);			
+		}
+		else 
+		{
+			request.setAttribute("message", "Data not found, need to register first");
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+		}
+			
+	}
+
+}

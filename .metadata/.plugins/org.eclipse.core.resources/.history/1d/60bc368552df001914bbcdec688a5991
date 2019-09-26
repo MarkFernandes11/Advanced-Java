@@ -1,0 +1,42 @@
+package com.login;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+public class ConnectionProvider implements ConnectionProviderDetails 
+{
+	Connection connection = null;
+	PreparedStatement statement = null;
+	
+	public Connection getConection() 
+	{
+		try 
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			connection = (Connection) DriverManager.getConnection(urlPath, dbUserName, dbPassword);
+		}
+		catch (ClassNotFoundException e) 
+		{			
+			e.printStackTrace();
+		}
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			if(connection != null)
+			{
+				try {
+					connection.close();
+				} catch (SQLException e) {					
+					e.printStackTrace();
+				}
+			}			
+		}
+		return connection;
+	}
+}
