@@ -12,26 +12,27 @@ public class UserRegistration
 	static PreparedStatement statement = null;
 	static String query = "INSERT INTO UserTable (Firstname,Lastname,Email,Password,Contact_Number) VALUES(?, ?, ?, ?, ?)";
 	
-	public static boolean RegisterUser(String firstname, String lastname, String email, String contactNumber, String password) 
+	//String firstname, String lastname, String email, String contactNumber, String password
+	
+	public static boolean RegisterUser(User user) 
 	{
 		boolean registrationDone = false;
 		//System.out.println("check");
 		try 
 		{
 			connection = ConnectionProvider.getConection();
-			//System.out.println("check");
-			statement = (PreparedStatement) connection.prepareStatement(query);
-			//System.out.println("check");
-			statement.setString(1, firstname);
-			//System.out.println(statement);
-			statement.setString(2, lastname);
-			//System.out.println(statement);
-			statement.setString(3, email);			
-			//System.out.println(statement);
-			statement.setString(4, password);
-			//System.out.println(statement);
-			statement.setString(5, contactNumber);
-			//System.out.println(statement);			
+						
+			statement.setString(1, user.getFirstname());
+			System.out.println(statement);
+			statement.setString(2, user.getLastname());
+			System.out.println(statement);
+			statement.setString(3, user.getEmail());
+			System.out.println(statement);
+			statement.setString(4, user.getPassword());
+			System.out.println(statement);
+			statement.setString(5, user.getContactNumber());
+			System.out.println(statement);
+			
 			int status = statement.executeUpdate();
 			
 //			System.out.println(status);
@@ -81,17 +82,19 @@ public class UserRegistration
 		
 		
 	}
-
-//	public void RegisterUser(String firstname, String lastname, String email, String contactNumber, String password) {
-//		// TODO Auto-generated method stub
-//		
-//	}
 }
 
 
+//System.out.println("check");
+//statement = (PreparedStatement) connection.prepareStatement(query);
+//System.out.println("check");
+//statement.setString(1, firstname);
+//System.out.println(statement);
+//statement.setString(2, lastname);
+//System.out.println(statement);
+//statement.setString(3, email);			
+//System.out.println(statement);
+//statement.setString(4, password);
+//System.out.println(statement);
+//statement.setString(5, contactNumber);
 
-//statement.setString(1, user.getFirstname());			
-//statement.setString(2, user.getLastname());
-//statement.setString(3, user.getEmail());
-//statement.setString(4, user.getContactNumber());
-//statement.setString(5, user.getPassword());

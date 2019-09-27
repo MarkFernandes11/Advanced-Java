@@ -13,12 +13,12 @@ public class UserData
 	static Connection con;
 	static PreparedStatement statement;
 	static ResultSet result;
+	static List<User> userList = new ArrayList<User>();
+	static User user;
 	
 	@SuppressWarnings("rawtypes")
 	public static List userData() 
-	{
-		List<User> userList = new ArrayList<User>();
-		User user = new User();
+	{		 
 		try 
 		{
 			
@@ -26,17 +26,25 @@ public class UserData
 			statement = (PreparedStatement) con.prepareStatement("SELECT * FROM UserTable");
 			result = statement.executeQuery();
 			
+			userList.clear();
 			while(result.next())
-			{								
+			{	
+				
+				user = new User();
 				user.setFirstname(result.getString(1));
 				System.out.println(user.getFirstname());
 				user.setLastname(result.getString(2));
+				System.out.println(user.getLastname());
 				user.setEmail(result.getString(3));
+				System.out.println(user.getEmail());
 				user.setPassword(result.getString(4));
+				System.out.println(user.getPassword());
 				user.setContactNumber(result.getString(5));
+				System.out.println(user.getContactNumber());
 				System.out.println(user);
 				userList.add(user);	
 				
+				System.out.println(userList);
 				//System.out.println(user.getName());
 				//System.out.println(user.getEmail());
 			}
@@ -76,6 +84,7 @@ public class UserData
 			}
 		}
 		
+		System.out.println(userList);
 		return userList;
 	}	
 

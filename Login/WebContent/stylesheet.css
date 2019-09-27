@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 *{
-	background-color: #a8d200;
+	background-color: #fff;
 }
 
 body{
-	font: #d5ff2d;
+	font: #fff;
 }
 
 form{
@@ -60,4 +60,14 @@ a{
 	background-color: #e096ff;
 	margin-left: 150px;
 	
+}
+
+table{
+	background-color: #ff2d6d;
+	margin-left: 150px;
+	font: #ff2d6d;
+}
+
+.data{
+	background-color: #ff2d6d;
 }

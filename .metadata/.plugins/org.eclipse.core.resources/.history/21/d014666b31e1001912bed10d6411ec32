@@ -1,0 +1,17 @@
+package com.login;
+
+//import java.util.List;
+import java.util.Set;
+
+public class ListOfUsers 
+{
+	private Set<User> userList;
+
+	public Set<User> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(Set<User> userList) {
+		this.userList = userList;
+	}
+}

@@ -8,8 +8,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-
+<title>Welcome Page</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">	
 </head>
 <body>
 	<header>
@@ -45,12 +45,15 @@
 		}else{
 		%>
 		<tr>
-			<td colspan=3>User list User list is empty
+			<td>User list User list is empty
 		</td>
 		</tr>
 		<%} %>
 	</table>
 	
+	<br>
+	<br>
+	<br>
 	<a href="login.jsp">Logout</a> 
 </body>
 </html>

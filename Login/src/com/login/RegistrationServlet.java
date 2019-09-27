@@ -23,6 +23,7 @@ public class RegistrationServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		UserRegistration userReg = new UserRegistration();
+		User user = new User();
 		
 		System.out.println("check");
 		PrintWriter out = response.getWriter();
@@ -33,10 +34,18 @@ public class RegistrationServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String contactNumber = request.getParameter("contactNumber");
 		String password = request.getParameter("password");
+		
 		//System.out.println(firstname);
 		//System.out.println(lastname);
 		//System.out.println("check");
-		boolean status = UserRegistration.RegisterUser(firstname,lastname,email,contactNumber,password);
+		
+		user.setFirstname(firstname);
+		user.setLastname(lastname);
+		user.setEmail(email);
+		user.setPassword(password);
+		user.setContactNumber(contactNumber);
+		
+		boolean status = UserRegistration.RegisterUser(user);
 		System.out.println(status);
 		if(status)
 		{
