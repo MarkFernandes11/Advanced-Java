@@ -1050,3 +1050,13 @@ Sep 27, 2019 19:48:20.16 Opening in existing browser session.
 Sep 27, 2019 19:49:33.21 [9232:9232:0927/194933.212039:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
 Sep 27, 2019 19:49:33.21 [9196:9216:0927/194933.212497:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
 Sep 27, 2019 19:49:33.29 Opening in existing browser session.
+
+Sep 28, 2019 09:58:18.55 NEW SESSION
+Sep 28, 2019 09:58:18.55 [3301:3301:0928/095818.555430:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 28, 2019 09:58:22.12 [3263:3284:0928/095822.129377:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 28, 2019 09:58:23.03 Opening in existing browser session.
+
+Sep 28, 2019 17:42:47.61 NEW SESSION
+Sep 28, 2019 17:42:47.61 [16158:16158:0928/174247.616440:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 28, 2019 17:42:47.65 [16119:16140:0928/174247.658653:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+Sep 28, 2019 17:42:47.72 Opening in existing browser session.

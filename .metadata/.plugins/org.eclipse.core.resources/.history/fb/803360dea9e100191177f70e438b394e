@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-	background-color: #000;
+	background-color: #fff;
 }
 
 body{
@@ -101,30 +101,11 @@ td:nth-child(5n+5)
 	background-color :#efef45;
 }
 
-
-
-th{
+table,tr,th{
 	background-color: #00ffff;
 }
 
 table{
-	margin : auto;
 	border: 1px solid #000;
 	border-radius: 5px;
-	text-align: center;
 }
-
-p{
-	background-color: #00ffff;
-}
-
-
-.logout{
-	margin: 600px;
-	height: 20px;
-	width: 50px;
-}
-
-
-
-

@@ -101,11 +101,10 @@ td:nth-child(5n+5)
 	background-color :#efef45;
 }
 
-
-
-th{
+table,tr,th{
 	background-color: #00ffff;
 }
+
 
 table{
 	margin : auto;
@@ -113,18 +112,3 @@ table{
 	border-radius: 5px;
 	text-align: center;
 }
-
-p{
-	background-color: #00ffff;
-}
-
-
-.logout{
-	margin: 600px;
-	height: 20px;
-	width: 50px;
-}
-
-
-
-

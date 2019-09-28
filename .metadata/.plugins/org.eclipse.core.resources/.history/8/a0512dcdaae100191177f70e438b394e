@@ -101,7 +101,9 @@ td:nth-child(5n+5)
 	background-color :#efef45;
 }
 
-
+table,tr,th{
+	background-color: #00ffff;
+}
 
 th{
 	background-color: #00ffff;
@@ -117,14 +119,3 @@ table{
 p{
 	background-color: #00ffff;
 }
-
-
-.logout{
-	margin: 600px;
-	height: 20px;
-	width: 50px;
-}
-
-
-
-

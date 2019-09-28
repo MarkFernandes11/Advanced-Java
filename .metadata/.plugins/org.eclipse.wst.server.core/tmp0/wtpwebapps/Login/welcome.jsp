@@ -16,7 +16,7 @@
 			<h1>Bridgelabz Welcome Page</h1>
 	</header>	
 	
-	<table border="1px solid #000;">
+	<table>
 		<tr>
 			<th><b><p>First Name</p></b></th>
 			<th><b><p>Last Name</p></b></th>
@@ -54,6 +54,6 @@
 	<br>
 	<br>
 	<br>
-	<a href="login.jsp">Logout</a> 
+	<a class="logout" href="login.jsp">Logout</a> 
 </body>
 </html>

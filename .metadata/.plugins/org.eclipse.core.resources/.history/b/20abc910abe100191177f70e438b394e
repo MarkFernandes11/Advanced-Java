@@ -117,14 +117,3 @@ table{
 p{
 	background-color: #00ffff;
 }
-
-
-.logout{
-	margin: 600px;
-	height: 20px;
-	width: 50px;
-}
-
-
-
-

@@ -118,12 +118,12 @@ p{
 	background-color: #00ffff;
 }
 
-
-.logout{
-	margin: 600px;
+a#logout{
 	height: 20px;
 	width: 50px;
+	margin : auto;
 }
+
 
 
 

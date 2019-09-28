@@ -54,6 +54,6 @@
 	<br>
 	<br>
 	<br>
-	<a class="logout" href="login.jsp">Logout</a> 
+	<a class="lout" href="login.jsp">Logout</a> 
 </body>
 </html>

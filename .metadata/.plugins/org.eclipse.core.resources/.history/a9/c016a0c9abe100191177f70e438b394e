@@ -120,9 +120,7 @@ p{
 
 
 .logout{
-	margin: 600px;
-	height: 20px;
-	width: 50px;
+	
 }
 
 

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-	background-color: #fff;
+	background-color: #000;
 }
 
 body{
@@ -71,3 +71,60 @@ table{
 .data{
 	background-color: #ff2d6d;
 }
+
+table,tr,td{
+	background-color: grey;
+}	
+
+td:nth-child(5n+1)
+{
+	background-color :#9cc300;
+}
+
+td:nth-child(5n+2)
+{
+	background-color :#ff812d;
+}
+
+td:nth-child(5n+3)
+{
+	background-color :#e600ff;
+}
+
+td:nth-child(5n+4)
+{
+	background-color :#ff0099;
+}
+
+td:nth-child(5n+5)
+{
+	background-color :#efef45;
+}
+
+
+
+th{
+	background-color: #00ffff;
+}
+
+table{
+	margin : auto;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+}
+
+p{
+	background-color: #00ffff;
+}
+
+
+.logout{
+	margin: 600px;
+	height: 20px;
+	width: 50px;
+}
+
+
+
+
