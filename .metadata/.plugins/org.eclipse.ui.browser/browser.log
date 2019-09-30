@@ -1060,3 +1060,34 @@ Sep 28, 2019 17:42:47.61 NEW SESSION
 Sep 28, 2019 17:42:47.61 [16158:16158:0928/174247.616440:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
 Sep 28, 2019 17:42:47.65 [16119:16140:0928/174247.658653:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
 Sep 28, 2019 17:42:47.72 Opening in existing browser session.
+
+Sep 29, 2019 14:34:43.30 NEW SESSION
+Sep 29, 2019 14:34:43.30 [4662:4662:0929/143443.304827:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 29, 2019 14:34:43.34 [4625:4646:0929/143443.330769:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 29, 2019 14:34:43.55 Opening in existing browser session.
+
+Sep 30, 2019 13:54:40.66 NEW SESSION
+Sep 30, 2019 13:54:40.66 [7026:7048:0930/135440.658838:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service
+Sep 30, 2019 13:54:40.98 Opening in existing browser session.
+Sep 30, 2019 13:56:35.97 [7338:7338:0930/135635.978153:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 13:56:37.01 [7338:7338:0930/135637.011723:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 30, 2019 13:58:28.60 [8177:8177:0930/135828.605554:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 13:58:28.62 [8141:8162:0930/135828.620020:ERROR:browser_process_sub_thread.cc(203)] Waited 3 ms for network service
+Sep 30, 2019 13:58:28.69 Opening in existing browser session.
+Sep 30, 2019 14:12:50.61 [8681:8681:0930/141250.618226:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 14:12:50.62 [8642:8663:0930/141250.625742:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service
+Sep 30, 2019 14:12:50.70 Opening in existing browser session.
+Sep 30, 2019 14:15:08.40 [8916:8916:0930/141508.404387:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 14:15:08.41 [8879:8899:0930/141508.414855:ERROR:browser_process_sub_thread.cc(203)] Waited 2 ms for network service
+Sep 30, 2019 14:15:08.47 Opening in existing browser session.
+Sep 30, 2019 14:16:13.15 [9218:9218:0930/141613.159251:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 14:16:13.16 [9180:9201:0930/141613.164422:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 30, 2019 14:16:13.23 Opening in existing browser session.
+Sep 30, 2019 14:19:23.62 [9514:9514:0930/141923.627566:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Sep 30, 2019 14:19:23.64 [9476:9497:0930/141923.648672:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+Sep 30, 2019 14:19:23.72 Opening in existing browser session.
+Sep 30, 2019 14:20:37.31 [7338:7338:0930/142037.314599:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Sep 30, 2019 14:54:15.82 [1:38:0930/145415.822459:ERROR:render_media_log.cc(27)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"Failed to send audio packet for decoding: timestamp=55124172 duration=23219 size=182 side_data_size=0 is_key_frame=1 encrypted=0 discard_padding (us)=(0, 0)"}
+Sep 30, 2019 14:54:15.82 [1:38:0930/145415.822812:ERROR:render_media_log.cc(27)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"audio decode error"}
+Sep 30, 2019 14:54:15.84 [1:38:0930/145415.841660:ERROR:render_media_log.cc(27)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"audio error during playing, status: PIPELINE_ERROR_DECODE"}
+Sep 30, 2019 14:54:15.84 [1:1:0930/145415.842111:ERROR:render_media_log.cc(27)] MediaEvent: PIPELINE_ERROR PIPELINE_ERROR_DECODE

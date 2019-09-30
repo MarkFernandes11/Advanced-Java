@@ -21,7 +21,9 @@ public class UserRegistration
 		try 
 		{
 			connection = ConnectionProvider.getConection();
-						
+			System.out.println(connection);
+			System.out.println("check");
+			statement = (PreparedStatement) connection.prepareStatement(query);
 			statement.setString(1, user.getFirstname());
 			System.out.println(statement);
 			statement.setString(2, user.getLastname());
@@ -32,9 +34,10 @@ public class UserRegistration
 			System.out.println(statement);
 			statement.setString(5, user.getContactNumber());
 			System.out.println(statement);
+			System.out.println("check");
 			
 			int status = statement.executeUpdate();
-			
+			System.out.println(status);
 //			System.out.println(status);
 			
 			if(status != 0)
