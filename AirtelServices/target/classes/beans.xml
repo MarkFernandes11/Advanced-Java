@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+ 	<bean id = "data" class = "com.bridgelabz.AirtelServices.DataServices">
+ 	</bean>
+ 	
+ 	<bean id = "missedCallAlert" class = "com.bridgelabz.AirtelServices.MissedCallAlert">
+ 	</bean>
+ 	
+ 	<bean id = "helloTune" class = "com.bridgelabz.AirtelServices.HelloTune">
+ 	</bean>
+ 
+	 <bean id = "subscriber" class = "com.bridgelabz.AirtelServices.Subscriber">
+	 	<property name = "service" ref = "helloTune"></property>
+	 </bean>
+	 
+ 
+   
+ </beans>

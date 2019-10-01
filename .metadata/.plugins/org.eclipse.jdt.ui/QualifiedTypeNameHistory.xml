@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.login.ConnectionProviderDetails"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
@@ -18,4 +17,14 @@
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dependencyInjection.Tea"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dependencyInjection.Coffee"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dependencyInjection.Beverage"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.DemoProject.Beverage"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.DependencyInjection.Person1"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.DependencyInjection.Employee"/>
 </qualifiedTypeNameHistroy>

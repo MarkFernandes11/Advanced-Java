@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Dependency Injection by setter method -->
+	<!-- <bean id = "employee" class = "com.bridgelabz.DependencyInjection.Person1">
+		<property name = "empName" value = "Mark" />
+		<property name = "empId" value = "101" />
+		<property name = "department" value = "Development" />
+	</bean>
+	
+	<bean id = "employee2" class = "com.bridgelabz.DependencyInjection.Person1">
+		<property name = "empName" value = "Anto" />
+		<property name = "empId" value = "102" />
+		<property name = "department" value = "BDE" />
+	</bean> -->
+	
+	<!-- Dependency Injection by constructor method -->
+	<bean id = "employee" class = "com.bridgelabz.DependencyInjection.Person1">
+		<constructor-arg name = "empName" value = "Suraj"></constructor-arg>
+		<constructor-arg name = "empId" value = "103"></constructor-arg>
+		<constructor-arg name = "department" value = "Development"></constructor-arg>
+	</bean>
+	
+	<bean id = "employee2" class = "com.bridgelabz.DependencyInjection.Person1">
+		<constructor-arg name = "empName" value = "Vaibhav"></constructor-arg>
+		<constructor-arg name = "empId" value = "104"></constructor-arg>
+		<constructor-arg name = "department" value = "Development"></constructor-arg>
+	</bean>
+	   
+</beans>  
