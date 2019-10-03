@@ -21,6 +21,10 @@
 		<br><br>
 		<a href="register.jsp">Register new user</a>
 		<br><br>
+		<a href="forgetPassword.jsp">Forget Password</a>
+		<br><br>
+		<a href="delete.jsp">Delete user Details</a>
+		<br><br>
 	</form>
 </body>
 </html>

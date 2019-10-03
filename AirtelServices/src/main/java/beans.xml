@@ -11,11 +11,14 @@
  	<bean id = "missedCallAlert" class = "com.bridgelabz.AirtelServices.MissedCallAlert">
  	</bean>
  	
+ 	<bean id = "videoCalling" class = "com.bridgelabz.AirtelServices.VideoCalling">
+ 	</bean>
+ 	
  	<bean id = "helloTune" class = "com.bridgelabz.AirtelServices.HelloTune">
  	</bean>
  
 	 <bean id = "subscriber" class = "com.bridgelabz.AirtelServices.Subscriber">
-	 	<property name = "service" ref = "helloTune"></property>
+	 	<property name = "service" ref = "videoCalling"></property>
 	 </bean>
 	 
  

@@ -15,7 +15,7 @@ public class Airtel
     	Subscriber subscriber = context.getBean("subscriber",Subscriber.class);
     	
     	subscriber.activateServices();
-    	subscriber.deactivateServices();
+    	//subscriber.deactivateServices();
     	
     }
 }
