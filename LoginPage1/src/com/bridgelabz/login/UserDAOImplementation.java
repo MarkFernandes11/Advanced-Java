@@ -2,11 +2,10 @@ package com.bridgelabz.login;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.*;
 
 import org.apache.catalina.User;
 
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
 
 public class UserDAOImplementation implements UserDAO 
 {

@@ -8,11 +8,13 @@ public class App {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) 
 	{				
-		ApplicationContext context = new ClassPathXmlApplicationContext("src/main/java/Beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		Beverage beverage = context.getBean("coffee",Beverage.class);
 		
 		beverage.getBeverage();
 		beverage.getBill();
+		
+		((ClassPathXmlApplicationContext)context).close();
 	}
 
 }

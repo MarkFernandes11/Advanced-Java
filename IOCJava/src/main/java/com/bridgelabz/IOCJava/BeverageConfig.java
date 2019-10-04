@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.bridgelabz.IOCJava")
 public class BeverageConfig 
 {
-	public Beverage beverageBean() 
+	public void beverageBean() 
 	{
-		return new Coffee();
+		//return new Coffee();
 		
 	}
 }

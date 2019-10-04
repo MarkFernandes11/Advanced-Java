@@ -1,13 +1,13 @@
 package com.bridgelabz.login;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import com.mysql.jdbc.Connection;
 
 public class MyConnection implements ConnectorDetails 
 {
-	static Connection connection = null;
+	static Connection connection;
 	
 	public static Connection getConnection()
 	{

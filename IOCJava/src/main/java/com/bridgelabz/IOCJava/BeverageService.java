@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class BeverageService 
 {
 	@Autowired
-	@Qualifier("cappuccinoBean")
+	@Qualifier("teaBean")
 	private Beverage beverage;
 	
 	public void service()
