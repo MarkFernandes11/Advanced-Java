@@ -5,7 +5,6 @@ INDEX VERSION 1.131+/home/admin1/Documents/workspace-sts-3.9.10.RELEASE/Advanced
 3979378716.index
 3321697619.index
 2456283701.index
-2920989696.index
 1848309395.index
 3961707133.index
 3596585500.index
@@ -45,7 +44,6 @@ INDEX VERSION 1.131+/home/admin1/Documents/workspace-sts-3.9.10.RELEASE/Advanced
 2412745159.index
 3349617412.index
 1255834308.index
-1634711431.index
 2675409044.index
 4045479434.index
 2443216365.index

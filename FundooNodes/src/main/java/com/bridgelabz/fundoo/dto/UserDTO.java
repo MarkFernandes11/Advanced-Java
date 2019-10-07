@@ -1,42 +1,42 @@
 package com.bridgelabz.fundoo.dto;
 
-public class EmployeeDTO 
+public class UserDTO 
 {
-	private String employeeName;
-	private String department;
+	private String firstName;
+	private String lastName;
 	private String gender;
 	private int age;
 	private String contactNumber;
 	private String emailAddress;
 	
-	public EmployeeDTO() {
+	public UserDTO() {
 	}
 	
-	public EmployeeDTO(String employeeName, String department, String gender, int age, String contactNumber,
+	public UserDTO(String firstName, String lastName, String gender, int age, String contactNumber,
 			String emailAddress) 
 	{
-		this.employeeName = employeeName;
-		this.department = department;
+		this.firstName = firstName;
+		this.lastName = lastName;
 		this.gender = gender;
 		this.age = age;
 		this.contactNumber = contactNumber;
 		this.emailAddress = emailAddress;
 	}
-		
-	public String getEmployeeName() {
-		return employeeName;
+
+	public String getFirstName() {
+		return firstName;
 	}
-	
-	public void setEmployeeName(String employeeName) {
-		this.employeeName = employeeName;
+
+	public String getLastName() {
+		return lastName;
 	}
-	
-	public String getDepartment() {
-		return department;
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-	
-	public void setDepartment(String department) {
-		this.department = department;
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 	public String getGender() {
@@ -72,9 +72,11 @@ public class EmployeeDTO
 	}
 
 	@Override
-	public String toString() {
-		return "EmployeeDTO [employeeName=" + employeeName + ", department=" + department + ", gender=" + gender
-				+ ", age=" + age + ", contactNumber=" + contactNumber + ", emailAddress=" + emailAddress + "]";
+	public String toString() 
+	{
+		return "UserDTO [firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", age=" + age
+				+ ", contactNumber=" + contactNumber + ", emailAddress=" + emailAddress + "]";
 	}
+	
 	
 }
