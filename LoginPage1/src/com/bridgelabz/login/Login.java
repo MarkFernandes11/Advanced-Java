@@ -27,7 +27,7 @@ public class Login extends HttpServlet
 	{
 		UserDAOImplementation userDao = new UserDAOImplementation();
 		
-		PrintWriter out = response.getWriter();
+		//PrintWriter out = response.getWriter();
 		
 		String username = request.getParameter("email");
 		String passwordCheck = request.getParameter("password");

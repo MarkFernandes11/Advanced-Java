@@ -22,11 +22,11 @@ public class RegistrationServlet extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		UserRegistration userReg = new UserRegistration();
+		//UserRegistration userReg = new UserRegistration();
 		User user = new User();
 		
 		System.out.println("check");
-		PrintWriter out = response.getWriter();
+		//PrintWriter out = response.getWriter();
 		response.setContentType("text/html");
 		
 		String firstname = request.getParameter("firstname");

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/admin1/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/admin1/.git\:
+GitRepositoriesView.GitDirectories=/home/admin1/.git\:/home/admin1/Documents/workspace-sts-3.9.10.RELEASE/Advanced-Java/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/admin1/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

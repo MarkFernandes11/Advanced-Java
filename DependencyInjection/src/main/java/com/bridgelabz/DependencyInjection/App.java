@@ -13,5 +13,6 @@ public class App
         
         Employee employee2 = context.getBean("employee2",Employee.class);
         employee2.employeeDetails();
+        ((ClassPathXmlApplicationContext)context).close();
     }
 }

@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
 		if(loginStatus)
 		{			
 			
-			System.out.println(userList.size()+" "+userList);
+			//System.out.println(userList.size()+" "+userList);
 			
 			request.setAttribute("userList", userList);
 			
@@ -61,6 +61,7 @@ public class LoginServlet extends HttpServlet {
 		}
 		else
 		{
+			//request.getAttribute(arg0)
 			response.sendRedirect("login.jsp");
 		}		
 //		RequestDispatcher rd = request.getRequestDispatcher("Welcom.jsp");

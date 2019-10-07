@@ -11,7 +11,7 @@
 	
 	<header>
 	
-			<h1>Hello ${Name} welcome to Bridgelabz<h1>
+			<h1>Hello ${Name} welcome to Bridgelabz</h1>
 		
 		<!-- <marquee><h1>Bridgelabz Login Page</h1></marquee> -->
 		

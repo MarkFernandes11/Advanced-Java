@@ -16,6 +16,7 @@ public class Airtel
     	
     	subscriber.activateServices();
     	//subscriber.deactivateServices();
+    	((ClassPathXmlApplicationContext)context).close();
     	
     }
 }

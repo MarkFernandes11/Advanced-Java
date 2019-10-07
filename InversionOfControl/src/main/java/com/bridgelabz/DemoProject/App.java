@@ -16,6 +16,7 @@ public class App
         
         beverage.getBeverage();
         beverage.getBill();
+        ((ClassPathXmlApplicationContext)context).close();
       
     }
 }
