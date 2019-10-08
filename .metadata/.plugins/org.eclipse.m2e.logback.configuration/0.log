@@ -4702,3 +4702,287 @@ org.eclipse.core.runtime.CoreException: Launch configuration Airtel references c
 2019-10-07 17:02:27,221 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-10-07 17:02:27,223 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-10-07 17:02:27,223 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/admin1/Documents/workspace-sts-3.9.10.RELEASE/Advanced-Java/FundooNodes/src/test/resources
+2019-10-08 15:28:50,148 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-08 15:29:23,488 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-10-08 15:29:25,593 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DemoSpringRest:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\pom.xml.
+2019-10-08 15:29:28,140 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:IOCJava:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\pom.xml.
+2019-10-08 15:29:46,251 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringRest/src/main/java
+2019-10-08 15:29:46,251 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding resources folder C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\main\resources
+2019-10-08 15:29:46,263 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringRest/src/test/java
+2019-10-08 15:29:46,269 [Worker-16: Update Maven projects configuration] WARN  o.e.m.c.p.c.AbstractLifecycleMapping - Could not update project DemoSpringRest configuration
+java.lang.NullPointerException: null
+	at org.eclipse.jdt.internal.core.JavaModelManager.storePreference(JavaModelManager.java:5281) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:3400) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:171) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:508) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:439) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:352) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1370) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:349) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.importer.internal.MavenProjectConfigurator$UpdateMavenConfigurationJob.run(MavenProjectConfigurator.java:169) [org.eclipse.m2e.importer_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2019-10-08 15:29:46,271 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 22 sec
+2019-10-08 15:29:46,274 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-10-08 15:29:46,371 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-10-08 15:30:16,970 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:AirtelServices:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\pom.xml.
+2019-10-08 15:30:17,242 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:17,242 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\main\resources
+2019-10-08 15:30:17,246 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:17,246 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\test\resources
+2019-10-08 15:30:18,364 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:18,364 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\main\resources
+2019-10-08 15:30:18,366 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:18,366 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\test\resources
+2019-10-08 15:30:18,992 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:30:19,102 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\pom.xml.
+2019-10-08 15:30:19,831 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:19,836 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:19,848 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:30:19,850 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:19,851 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\src\test\resources
+2019-10-08 15:30:20,170 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:30:20,589 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:20,590 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:20,590 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:30:20,592 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:20,593 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\src\test\resources
+2019-10-08 15:30:21,874 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:30:22,186 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DemoSpringRest:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\pom.xml.
+2019-10-08 15:30:22,644 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:22,646 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:22,660 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:22,660 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:30:23,604 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:30:23,911 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:AirtelServices:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\pom.xml.
+2019-10-08 15:30:24,101 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DemoSpringRest:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\pom.xml.
+2019-10-08 15:30:24,216 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\pom.xml.
+2019-10-08 15:30:24,485 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:24,488 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:30:24,495 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:24,495 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:30:25,074 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:25,074 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\main\resources
+2019-10-08 15:30:25,077 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:25,077 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\test\resources
+2019-10-08 15:30:25,727 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:25,731 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:25,744 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:25,744 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:30:25,925 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz.SpringBootQuickStart:FirstProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\pom.xml.
+2019-10-08 15:30:26,196 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:26,196 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:30:26,196 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:30:26,198 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:26,198 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\test\resources
+2019-10-08 15:30:27,281 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz.SpringBootQuickStart:FirstProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\pom.xml.
+2019-10-08 15:30:27,667 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:27,667 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:30:27,667 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:30:27,669 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:27,669 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\test\resources
+2019-10-08 15:30:28,939 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:Fundoo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\pom.xml.
+2019-10-08 15:30:29,681 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:29,681 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:29,693 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:30:29,695 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:29,695 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\src\test\resources
+2019-10-08 15:30:30,107 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:Fundoo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\pom.xml.
+2019-10-08 15:30:30,963 [Worker-14: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:FundooNodes:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\pom.xml.
+2019-10-08 15:30:31,588 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:31,589 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:30:31,605 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:30:31,609 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:31,609 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\src\test\resources
+2019-10-08 15:30:31,880 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:FundooNodes:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\pom.xml.
+2019-10-08 15:30:34,084 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\pom.xml.
+2019-10-08 15:30:34,365 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:34,366 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\main\resources
+2019-10-08 15:30:34,367 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:34,367 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\test\resources
+2019-10-08 15:30:35,184 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\pom.xml.
+2019-10-08 15:30:35,764 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:IOCJava:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\pom.xml.
+2019-10-08 15:30:35,985 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:35,985 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\main\resources
+2019-10-08 15:30:35,986 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:35,986 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\test\resources
+2019-10-08 15:30:36,083 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:36,084 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\main\resources
+2019-10-08 15:30:36,084 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:36,084 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\test\resources
+2019-10-08 15:30:36,538 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:IOCJava:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\pom.xml.
+2019-10-08 15:30:37,209 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:37,209 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\main\resources
+2019-10-08 15:30:37,210 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:30:37,210 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\test\resources
+2019-10-08 15:33:55,759 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:33:56,043 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:Fundoo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\pom.xml.
+2019-10-08 15:33:56,323 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:AirtelServices:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\pom.xml.
+2019-10-08 15:33:56,337 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:IOCJava:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\pom.xml.
+2019-10-08 15:33:56,428 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:FundooNodes:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\pom.xml.
+2019-10-08 15:33:56,493 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz.SpringBootQuickStart:FirstProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\pom.xml.
+2019-10-08 15:33:56,800 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DemoSpringRest:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\pom.xml.
+2019-10-08 15:33:56,822 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\pom.xml.
+2019-10-08 15:33:56,901 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\pom.xml.
+2019-10-08 15:34:14,860 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:14,860 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\main\resources
+2019-10-08 15:34:14,920 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:14,920 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\test\resources
+2019-10-08 15:34:15,580 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:15,581 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:34:15,595 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:15,595 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:34:15,927 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:15,927 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:34:15,927 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:34:15,928 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:15,929 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\test\resources
+2019-10-08 15:34:16,628 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:16,628 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:34:16,640 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:34:16,642 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:16,642 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\src\test\resources
+2019-10-08 15:34:17,105 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,105 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:34:17,106 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:34:17,107 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,107 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\src\test\resources
+2019-10-08 15:34:17,212 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,212 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\main\resources
+2019-10-08 15:34:17,213 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,213 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\test\resources
+2019-10-08 15:34:17,445 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,445 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\main\resources
+2019-10-08 15:34:17,446 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,446 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\test\resources
+2019-10-08 15:34:17,750 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,750 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:34:17,751 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:34:17,752 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:17,752 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\src\test\resources
+2019-10-08 15:34:18,006 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:18,007 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:34:18,007 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:34:18,009 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:34:18,009 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\src\test\resources
+2019-10-08 15:35:20,106 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:35:20,109 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:35:20,112 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:35:20,112 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:35:41,786 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:35:41,786 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:35:41,788 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:35:41,789 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:42:29,892 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-10-08 15:42:30,614 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-1:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\pom.xml.
+2019-10-08 15:42:30,841 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:Fundoo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\pom.xml.
+2019-10-08 15:42:31,058 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:AirtelServices:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\pom.xml.
+2019-10-08 15:42:31,136 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:FundooNodes:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\pom.xml.
+2019-10-08 15:42:31,167 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:IOCJava:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\pom.xml.
+2019-10-08 15:42:31,337 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DemoSpringRest:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\pom.xml.
+2019-10-08 15:42:31,380 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz.SpringBootQuickStart:FirstProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\pom.xml.
+2019-10-08 15:42:31,457 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\pom.xml.
+2019-10-08 15:42:31,526 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\pom.xml.
+2019-10-08 15:42:31,851 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AirtelServices/src/main/java
+2019-10-08 15:42:31,852 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AirtelServices/src/test/java
+2019-10-08 15:42:31,957 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2019-10-08 15:42:31,958 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-10-08 15:42:31,960 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-10-08 15:42:31,962 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2019-10-08 15:42:32,031 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2019-10-08 15:42:32,031 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-10-08 15:42:32,033 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-10-08 15:42:32,035 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2019-10-08 15:42:32,149 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringRest/src/main/java
+2019-10-08 15:42:32,149 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DemoSpringRest/src/main/resources
+2019-10-08 15:42:32,152 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringRest/src/test/java
+2019-10-08 15:42:32,216 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstProject/src/main/java
+2019-10-08 15:42:32,216 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstProject/src/test/java
+2019-10-08 15:42:32,259 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Fundoo/src/main/java
+2019-10-08 15:42:32,259 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Fundoo/src/main/resources
+2019-10-08 15:42:32,261 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Fundoo/src/main/resources
+2019-10-08 15:42:32,263 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Fundoo/src/test/java
+2019-10-08 15:42:32,363 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FundooNodes/src/main/java
+2019-10-08 15:42:32,363 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FundooNodes/src/main/resources
+2019-10-08 15:42:32,365 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FundooNodes/src/main/resources
+2019-10-08 15:42:32,367 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FundooNodes/src/test/java
+2019-10-08 15:42:32,436 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InversionOfControl/src/main/java
+2019-10-08 15:42:32,436 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InversionOfControl/src/test/java
+2019-10-08 15:42:32,462 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IOCJava/src/main/java
+2019-10-08 15:42:32,463 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IOCJava/src/test/java
+2019-10-08 15:42:32,862 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-10-08 15:42:33,779 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:33,779 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\main\resources
+2019-10-08 15:42:33,781 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:33,781 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\AirtelServices\src\test\resources
+2019-10-08 15:42:34,419 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:34,420 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:42:34,437 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:34,437 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:42:34,848 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:34,849 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:42:34,849 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\main\resources
+2019-10-08 15:42:34,850 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:34,850 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FirstProject\src\test\resources
+2019-10-08 15:42:35,405 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:35,406 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:42:35,417 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:35,419 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:35,419 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\src\test\resources
+2019-10-08 15:42:35,989 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:35,990 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:42:35,990 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:35,992 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:35,992 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\src\test\resources
+2019-10-08 15:42:36,083 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,083 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\main\resources
+2019-10-08 15:42:36,083 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,084 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\IOCJava\src\test\resources
+2019-10-08 15:42:36,258 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,258 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\main\resources
+2019-10-08 15:42:36,258 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,259 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\InversionOfControl\src\test\resources
+2019-10-08 15:42:36,448 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,448 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:42:36,449 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:36,450 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,450 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\src\test\resources
+2019-10-08 15:42:36,733 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,733 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-10-08 15:42:36,734 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:36,735 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:36,735 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\src\test\resources
+2019-10-08 15:42:38,329 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,332 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,335 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,335 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoSpringRest\src\test\resources
+2019-10-08 15:42:38,695 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,696 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,696 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,697 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,698 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\Fundoo\src\test\resources
+2019-10-08 15:42:38,913 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,913 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,913 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,914 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,914 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\FundooNodes\src\test\resources
+2019-10-08 15:42:38,926 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,926 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,926 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,927 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,927 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo\src\test\resources
+2019-10-08 15:42:38,936 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,936 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,936 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-08 15:42:38,938 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-08 15:42:38,938 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\demo-1\src\test\resources
+2019-10-08 15:45:10,586 [Worker-23: Updating Maven dependencies for project 'DemoApp'] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Oscar\Documents\workspace-sts-3.9.10.RELEASE\Advanced-Java\DemoApp
+2019-10-08 15:45:10,587 [Worker-23: Updating Maven dependencies for project 'DemoApp'] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B eclipse:clean eclipse:eclipse -Dstyle.color=always

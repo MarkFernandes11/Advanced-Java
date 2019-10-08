@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
-Built-By: admin1
-Build-Jdk: 11.0.4
 Implementation-Title: BridgelabzFirstAPI
 Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Oscar
 Implementation-Vendor-Id: com.bridgelabz.SpringBootQuickStart
-Implementation-Vendor: Pivotal Software, Inc.
-Implementation-URL: http://projects.spring.io/spring-boot/FirstProject/
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/FirstProject
+ /
 Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
 
