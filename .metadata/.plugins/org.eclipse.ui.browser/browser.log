@@ -1153,3 +1153,11 @@ Oct 07, 2019 18:00:00.48 Opening in existing browser session.
 Oct 07, 2019 18:06:15.29 [15955:15955:1007/180615.293071:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
 Oct 07, 2019 18:06:15.29 [15918:15939:1007/180615.298443:ERROR:browser_process_sub_thread.cc(203)] Waited 23 ms for network service
 Oct 07, 2019 18:06:15.36 Opening in existing browser session.
+
+Oct 09, 2019 08:38:13.79 NEW SESSION
+Oct 09, 2019 08:38:13.79 [4491:4491:1009/083813.793517:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 09, 2019 08:38:20.57 [4491:4491:1009/083820.577457:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Oct 09, 2019 08:38:30.11 [4455:4477:1009/083830.109990:ERROR:browser_process_sub_thread.cc(203)] Waited 322 ms for network service
+Oct 09, 2019 10:37:28.17 [8617:8617:1009/103728.170213:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 09, 2019 10:37:28.19 [8578:8599:1009/103728.192110:ERROR:browser_process_sub_thread.cc(203)] Waited 4 ms for network service
+Oct 09, 2019 10:37:28.25 Opening in existing browser session.

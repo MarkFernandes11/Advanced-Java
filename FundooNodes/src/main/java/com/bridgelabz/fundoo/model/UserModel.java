@@ -1,7 +1,11 @@
 package com.bridgelabz.fundoo.model;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.annotation.Id;
+
 public class UserModel 
 {
+	@Id
 	private long userId;
 	private String firstName;
 	private String lastName;
