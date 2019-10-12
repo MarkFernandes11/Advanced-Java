@@ -1,6 +1,23 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Build-Jdk-Spec: 11
 Implementation-Title: BridgelabzFirstAPI
 Implementation-Version: 0.0.1-SNAPSHOT
+=======
+<<<<<<< HEAD
+Build-Jdk-Spec: 11
+Implementation-Title: BridgelabzFirstAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+=======
+Implementation-Title: BridgelabzFirstAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Oscar
+Implementation-Vendor-Id: com.bridgelabz.SpringBootQuickStart
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/FirstProject
+ /
+>>>>>>> 2ee54cbdde48faf3cf4f176d86d5265d95cd7d10
+>>>>>>> c7f9adda4671597b18b262f95604e5beb64bbe80
 Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
 
